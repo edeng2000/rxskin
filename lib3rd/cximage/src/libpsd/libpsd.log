@@ -1,0 +1,151 @@
+﻿  pch.cpp
+  adjustment.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  bevel_emboss.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  bitmap.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  blend.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  boundary.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  brightness_contrast.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\brightness_contrast.c(50,66): warning C4311: “类型强制转换”: 从“psd_layer_brightness_contrast *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\brightness_contrast.c(77,69): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_brightness_contrast *”
+  channel_image.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  channel_mixer.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\channel_mixer.c(52,66): warning C4311: “类型强制转换”: 从“psd_layer_channel_mixer *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\channel_mixer.c(80,77): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_channel_mixer *”
+  color.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  color_balance.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\color_balance.c(66,66): warning C4311: “类型强制转换”: 从“psd_layer_color_balance *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\color_balance.c(164,63): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_color_balance *”
+  color_mode.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  color_overlay.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  curves.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\curves.c(68,66): warning C4311: “类型强制转换”: 从“psd_layer_curves *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\curves.c(182,38): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_curves *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\curves.c(337,56): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_curves *”
+  descriptor.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  drop_shadow.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  effects.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(83,74): warning C4311: “类型强制转换”: 从“void *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(173,74): warning C4311: “类型强制转换”: 从“void *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(371,57): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_effects *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(449,57): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_effects *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(459,58): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_effects *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(521,57): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_effects *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(531,58): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_effects *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\effects.c(790,40): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_effects *”
+  file_header.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  fixed.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  gaussian_blur.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  gradient_blend.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  正在编译...
+  gradient_fill.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\gradient_fill.c(48,66): warning C4311: “类型强制转换”: 从“psd_layer_gradient_fill *”到“psd_uint”的指针截断
+  gradient_map.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\gradient_map.c(54,66): warning C4311: “类型强制转换”: 从“psd_layer_gradient_map *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\gradient_map.c(168,44): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_gradient_map *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\gradient_map.c(177,75): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_gradient_map *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\gradient_map.c(207,52): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_gradient_map *”
+  gradient_overlay.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  hue_saturation.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\hue_saturation.c(52,66): warning C4311: “类型强制转换”: 从“psd_layer_hue_saturation *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\hue_saturation.c(107,79): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_hue_saturation *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\hue_saturation.c(151,54): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_hue_saturation *”
+  image_data.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  image_resource.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  inner_glow.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  inner_shadow.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  invert.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  layer_mask.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\layer_mask.c(873,50): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“void *”
+  levels.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\levels.c(55,66): warning C4311: “类型强制转换”: 从“psd_layer_levels *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\levels.c(140,38): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_levels *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\levels.c(159,56): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_levels *”
+  outer_glow.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  path.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  pattern.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  pattern_fill.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\pattern_fill.c(48,66): warning C4311: “类型强制转换”: 从“psd_layer_pattern_fill *”到“psd_uint”的指针截断
+  pattern_overlay.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  photo_filter.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\photo_filter.c(44,66): warning C4311: “类型强制转换”: 从“psd_layer_photo_filter *”到“psd_uint”的指针截断
+  posterize.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\posterize.c(48,66): warning C4311: “类型强制转换”: 从“psd_layer_posterize *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\posterize.c(73,59): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_posterize *”
+  psd.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  psd_system.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\psd_system.c(59,48): warning C4267: “return”: 从“size_t”转换到“psd_int”，可能丢失数据
+  正在编译...
+  psd_zip.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  rect.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  satin.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  selective_color.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\selective_color.c(51,66): warning C4311: “类型强制转换”: 从“psd_layer_selective_color *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\selective_color.c(91,81): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_selective_color *”
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\selective_color.c(198,55): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_selective_color *”
+  solid_color.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\solid_color.c(47,66): warning C4311: “类型强制转换”: 从“psd_layer_solid_color *”到“psd_uint”的指针截断
+  stream.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  stroke.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  test.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\test.c(47,10): warning C4013: “psd_free”未定义；假设外部返回 int
+  threshold.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\threshold.c(48,66): warning C4311: “类型强制转换”: 从“psd_layer_threshold *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\threshold.c(75,49): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_threshold *”
+  thumbnail.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+  type_tool.c
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\libpsd.h(258,2): warning C4091: “typedef ”: 没有声明变量时忽略“<unnamed-enum-psd_layer_effects_bevel_emboss_outer_shadow>”的左侧
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\type_tool.c(44,66): warning C4311: “类型强制转换”: 从“psd_layer_type_tool *”到“psd_uint”的指针截断
+E:\work\rxplayer\lib3rd\cximage\src\libpsd\type_tool.c(213,41): warning C4312: “类型强制转换”: 从“psd_uint”转换到更大的“psd_layer_type_tool *”
+  libpsd.cpp
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(E:\work\rxplayer\lib3rd\cximage\obj\Unicode_Release\libpsd\libpsd.lib) 与 Library 的 OutputFile 属性值(E:\work\rxplayer\lib3rd\cximage\lib\Unicode_Release\libpsd.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+  libpsd.vcxproj -> E:\work\rxplayer\lib3rd\cximage\obj\Unicode_Release\libpsd\libpsd.lib
