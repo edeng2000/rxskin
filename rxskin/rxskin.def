@@ -1,0 +1,7 @@
+EXPORTS
+	RXImageGetModule
+	RXGetTypeFromIndex
+	RXGetExtFromType
+	RXGetIndexFromType
+	RXSkinSetLogger
+	

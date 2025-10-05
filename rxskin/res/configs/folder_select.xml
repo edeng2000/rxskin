@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="250,360" area="RECT(100,20,550,445)" resize="false" child="RECT(170,40,540,370)">
+	<content offsetx="10" offsettop = "5" offsetbottom="10"/>
+	<Borders need="true" round="6,6">
+		<Top src="\..\skins\top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="\..\skins\bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="\..\skins\left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="\..\skins\right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="100001" hotsrc="100003" downsrc="100002" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="155" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="目录选择" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(5,45,438,385)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" round="6,6"/>
+	</Background>
+	<Controls>
+		<Control id="2001" type="RXSkinTxtButton" text="确定(&O)" tooltip="" area="RECT(360,395,425,415)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="2002" type="RXSkinTree"
+				text="" 
+				tooltip=""
+				area="RECT(10,45,438,390)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+	</Controls>
+	<Background>
+	</Background>
+</Window>

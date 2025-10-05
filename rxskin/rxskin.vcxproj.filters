@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{607603a7-fd06-480c-b87b-20235d736e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{6a5ce351-a628-491b-889e-911b2f8b2330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resize">
+      <UniqueIdentifier>{7c8c5aa3-5951-419a-bc43-6c7777b584ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls">
+      <UniqueIdentifier>{03fbda10-3e44-4744-9373-a6c6e1fa7d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skia">
+      <UniqueIdentifier>{cad6f479-59dc-4cb5-9fb0-20adfe19b9e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\drawmgr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\graphics.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskindefines.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskinmemdc.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskinservice.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\imagemgr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinapp.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskindialog.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinmessagebox.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinwnd.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resize\resizablemsgsupport.h">
+      <Filter>resize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resize\resizableversion.h">
+      <Filter>resize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resize\rxskinresizepoint.h">
+      <Filter>resize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resize\rxskinresizerect.h">
+      <Filter>resize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxcontrol.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinbrowser.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinchild.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskincolorpicker.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskincombobox.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskindatepicker.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinedit.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskingif.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinhotkeyctrl.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinitem.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinlistctrl.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinlocationpicker.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinmenu.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinoutbar.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinscrollbar.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinspinedit.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskintabctrl.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskintaskbarnotifier.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskintooltip.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskintrayicon.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinwebbrowser.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\WebBrowserEventHandler.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rximage.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rximagemodel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinmenubar.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinslider.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskintree.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskinutil.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinwaiting.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinchildwnd.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskinimagelist.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskineditwnd.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinfileselect.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinnewfolder.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\EasyGifReader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinsearch.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rxskinincludes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskinresourcemgr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main\rxskinfolderselect.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinrichedit.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinprogress.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rxskinres.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinricholeobject.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controls\rxskinrichtexthost.h">
+      <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\rxskinfont.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\skia\drawtext-skia.h">
+      <Filter>skia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\drawmgr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\graphics.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\imagemgr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinmemdc.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinservice.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinapp.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskindialog.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinmessagebox.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinwnd.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resize\resizablemsgsupport.cpp">
+      <Filter>resize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resize\resizableversion.cpp">
+      <Filter>resize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resize\rxskinresizepoint.cpp">
+      <Filter>resize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resize\rxskinresizerect.cpp">
+      <Filter>resize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxcontrol.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinbrowser.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinchild.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskincolorpicker.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskincombobox.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskindatepicker.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinedit.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskingif.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinhotkeyctrl.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinitem.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinlistctrl.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinlocationpicker.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinmenu.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinoutbar.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinscrollbar.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinspinedit.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskintabctrl.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskintaskbarnotifier.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskintooltip.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskintrayicon.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinwebbrowser.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rximagemodel.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinmenubar.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinslider.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskintree.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinutil.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinwaiting.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinchildwnd.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinimagelist.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskineditwnd.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinfileselect.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinnewfolder.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\EasyGifReader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinsearch.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\TxDIB.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinresourcemgr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinfolderselect.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinrichedit.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinprogress.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxskinrichtexthost.cpp">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinfont.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skia\drawtext-skia.cpp">
+      <Filter>skia</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rxskin.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rxskin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\skins\btn_close.png" />
+    <Image Include="res\skins\btn_close_down.png" />
+    <Image Include="res\skins\btn_close_hover.png" />
+    <Image Include="res\skins\btn_maximize.png" />
+    <Image Include="res\skins\btn_maximize_down.png" />
+    <Image Include="res\skins\btn_maximize_hover.png" />
+    <Image Include="res\skins\btn_minimize.png" />
+    <Image Include="res\skins\btn_minimize_down.png" />
+    <Image Include="res\skins\btn_minimize_hover.png" />
+    <Image Include="res\skins\btn_restore.png" />
+    <Image Include="res\skins\btn_restore_down.png" />
+    <Image Include="res\skins\btn_restore_hover.png" />
+    <Image Include="res\skins\btn_search_down.png" />
+    <Image Include="res\skins\btn_search_normal.png" />
+    <Image Include="res\skins\checkbox.png" />
+    <Image Include="res\skins\checkbox_h.png" />
+    <Image Include="res\skins\checkbox_p.png" />
+    <Image Include="res\skins\icn_collapse.png" />
+    <Image Include="res\skins\icn_collapse_hover.png" />
+    <Image Include="res\skins\icn_expand.png" />
+    <Image Include="res\skins\icn_expand_hover.png" />
+    <Image Include="res\skins\radio.png" />
+    <Image Include="res\skins\radio_h.png" />
+    <Image Include="res\skins\radio_p.png" />
+    <Image Include="res\skins\scrollbar.png" />
+    <Image Include="res\skins\scrollbar_hor.png" />
+    <Image Include="res\skins\tip.png" />
+    <Image Include="res\skins\error.png" />
+    <Image Include="res\skins\warn.png" />
+    <Image Include="res\skins\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\configs\common.xml" />
+    <Xml Include="res\configs\folder_select.xml" />
+    <Xml Include="res\configs\messagebox.xml" />
+  </ItemGroup>
+</Project>

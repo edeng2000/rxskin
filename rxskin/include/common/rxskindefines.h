@@ -1,0 +1,218 @@
+#ifndef _RXSKIN_DEFINES_H
+#define _RXSKIN_DEFINES_H
+
+#define CORNER_HEIGHT     8
+#define CORNER_WIDTH      8
+
+#define EDGE_WIDTH        4
+#define EDGE_HEIGHT       4
+
+#define DEFAULT_MAX_COMBOBOX_HEIGHT     120
+
+#define CARET_TIMERID	0x1999
+
+#define RXSKIN_COLOR_PICKER            (_T("RXSkinColorPicker"))
+#define RICH_EDITOR_CLASS_NAME         _T("Scintilla")
+enum EPosition
+{
+	POSITION_NONE = 0,
+	POSITION_TOPLEFT,
+	POSITION_LEFT_EDGE,
+	POSITION_BOTTOMLEFT,
+	POSITION_BOTTOM_EDGE,
+	POSITION_BOTTOMRIGHT,
+	POSITION_RIGHT_EDGE,
+	POSITION_TOPRIGHT,
+	POSITION_TOP_EDGE,
+	POSITION_CLIENT
+};
+
+enum EMenuItemType
+{
+	MENU_STRING = 1,
+	MENU_SEPERTOR = 2,
+	MENU_CHECKBOX = 4,
+	MENU_CHILD = 8
+};
+
+enum EScrollType
+{
+	SCROLLBAR_HOR = 0,
+	SCROLLBAR_VER
+};
+
+enum ESliderType
+{
+	SLIDER_HOR = 0,
+	SLIDER_VER
+};
+
+enum ESpinType
+{
+	SPIN_TOP = 0,
+	SPIN_BOTTOM,
+};
+
+enum EListItemType
+{
+	LIST_ITEM_HEADER = 0,
+	LIST_ITEM_TEXT,
+	LIST_ITEM_HOTKEY,
+	LIST_ITEM_CHECKBOX,
+	LIST_ITEM_PROGRESS,
+	LIST_ITEM_OPERATOR,
+	LIST_ITEM_IMAGE,
+	LIST_ITEM_IMAGE_BUTTON,
+};
+
+enum EListCtrlType
+{
+	LIST_CTRL_COMMON = 0,
+	LIST_CTRL_BOX
+};
+
+
+
+
+
+#define WND_RXSKIN_MENU_CLASS      _T("RXSkinMenu")
+#define WND_RXSKIN_TOOLTIP_NAME    _T("RXSkinToolTip")
+#define WND_RXSKIN_IMAGE_SEL_NAME  _T("RXSkinImageSel")
+#define RXSKIN_MSGTYPE_RETURN                 (_T("return"))
+#define WND_RXSKIN_TASKBAR_NOTIFIER_NAME  _T("RXSkinTaskbarNotifier")
+
+#define RXSKIN_ACTIVEX_CLASS_NAME  _T("RXSkinActiveX")
+
+#define DEFAULT_TOOLTIP_BK_COLOR            RGB(250,230,240)
+#define COLORREF_NULL                       (COLORREF)-1
+
+#define ID_STATIC_IMAGE               7001
+
+#define ID_BUTTON_RADIO_NORMAL		  30007
+#define ID_BUTTON_RADIO_HOT			  30008
+#define ID_BUTTON_RADIO_CHECKED		  30009
+
+#define ID_BUTTON_CHECKBOX_NORMAL	  60000
+#define ID_BUTTON_CHECKBOX_HOT		  60001
+#define ID_BUTTON_CHECKBOX_CHECKED	  60002
+#define ID_BUTTON_COMBOBOX      	  60003
+#define ID_CONTROL_BORDER        	  1060004
+
+
+#define ID_ARROW_RIGHT_NORMAL		  60018
+#define ID_ARROW_DOWN_NORMAL		  60017
+
+#define ID_MENU_CHECKED_SELECTED      60002
+
+#define ID_BROWSER_BTN_NORMAL         60020
+#define ID_BROWSER_BTN_HOT            60019
+
+#define ID_IMAGE_CLEAR_SEARCH         60057
+
+#define ID_COMBOBOX_NORMAL            60022
+#define ID_COMBOBOX_HOT				  60021
+
+#define ID_CLOSE			          50000
+#define ID_MAX     	                  50001
+#define ID_MIN 			              50002
+#define ID_RESTORE   	              50003
+#define ID_TITLE    	              50004
+
+#define DEFAULT_BUTTON_HEIGHT         25
+#define DEFAULT_BUTTON_WIDTH          50
+
+#define DEFAULT_OFFSET_X              5
+#define DEFAULT_OFFSET_Y              3
+#define ID_SCROLLBAR_HOR              60004
+#define ID_SCROLLBAR                  60005
+#define ID_MESSAGEBOX_ERROR           60006
+#define ID_MESSAGEBOX_HELP            60007
+#define ID_MESSAGEBOX_TIP             60008
+#define ID_MESSAGEBOX_WARN            60009
+
+#define ID_BUTTON_FILE_SELECT_BACK    591000
+#define ID_BUTTON_FILE_SELECT_REFRESH 591001
+#define ID_BUTTON_FILE_SELECT_NEW     591002
+#define ID_BUTTON_FILE_SELECT_UPWARD  591005
+#define ID_COMBO_FILE_SELECT          591003
+#define ID_LIST_CTRL_FILE_SELECT      591004
+
+#define ID_EDIT_NEW_FOLDER            43004
+#define ID_BUTTON_OK                  2001
+#define ID_BUTTON_CANCEL              2002
+
+#define ID_IMAGE_UP_ARROW                 60047
+#define ID_IMAGE_DOWN_ARROW               60048
+
+#define ID_STATUS_ONLINE              60010
+#define ID_STATUS_OFFLINE             60011
+#define ID_STATUS_AWAY                60012
+#define ID_STATUS_BUSY                60013
+#define ID_STATUS_CHAT                60014
+#define ID_STATUS_HIDE                60015
+#define ID_STATUS_DISTURB             60016
+
+#define ID_ARROW_RIGHT_NORMAL		  60018
+#define ID_ARROW_DOWN_NORMAL		  60017
+
+#define ID_ARROW_COLLASPSE_NORMAL	  60021
+#define ID_ARROW_COLLASPSE_HOT		  60022
+#define ID_ARROW_COLLASPSE_EXPAND_NORMAL	  60023
+#define ID_ARROW_COLLASPSE_EXPAND_HOT		  60024
+
+#define ID_SLIDER_NORMAL_BK           60030
+#define ID_SLIDER_SELECTED_BK         60031
+#define ID_SLIDER_BAR				  60032
+
+#define ID_SLIDER_VER_NORMAL_BK       60033
+#define ID_SLIDER_VER_SELECTED_BK     60034
+#define ID_PICTURE_TIP             4000
+#define ID_TAB_IMAGE_SEL              2001
+#define ID_TAB_IMAGE_SEL_ITEM_LOCATION 1000
+#define ID_TAB_IMAGE_SEL_ITEM_SYSTEM   1001
+#define ID_TAB_IMAGE_SEL_ITEM_CAMERA   1002
+
+#define ID_FONT_TITLE                  1000
+#define ID_FONT_COMMON                 1001
+#define ID_FONT_COMMON_BOLD            1002
+
+#define IDD_DIALOG_IMAGE_SEL_LOCATION 10000
+#define IDD_DIALOG_IMAGE_SEL_SYSTEM   10001
+#define IDD_DIALOG_IMAGE_SEL_CAMERA   10002
+
+#define ID_IMAGE_CLOSE_NORMAL         60053
+#define ID_IMAGE_CLOSE_HOT            60054
+#define ID_NOTIFY_COMMAND             8900001
+
+#ifndef INVALID_8BIT_ID
+#define INVALID_8BIT_ID   uint32_t(~0)
+#endif
+#ifndef INVALID_16BIT_ID
+#define INVALID_16BIT_ID   uint16_t(~0)
+#endif
+#ifndef INVALID_32BIT_ID
+#define INVALID_32BIT_ID   uint32_t(~0)
+#endif
+#ifndef INVALID_64BIT_ID
+#define INVALID_64BIT_ID   uint64_t(~0)
+#endif
+
+
+const UINT WM_RXSKIN_CONTROLS_BASE = (WM_USER + 9000);
+
+#define WM_RXSKIN_SCROLLBAR_POS				WM_USER + 10000
+#define WM_RXSKIN_COMBOBOX_CHANGED			WM_USER + 10001
+#define WM_RXSKIN_IMAGE_BROWNSER_CHANGED    WM_USER + 10002
+#define WM_RXSKIN_IMAGE_SEL_OK				WM_USER + 10003
+#define WM_RXSKIN_COLOR_PICKER_OK			WM_USER + 10004
+#define WM_RXSKIN_SLIDER_POS				WM_USER + 10005
+
+#define WM_RXSKIN_LISTCTRL_DB_CLIEECKED		WM_USER + 10006
+#define WM_RXSKIN_LISTCTRL_RCLIEECKED		WM_USER + 10007
+#define WM_RXSKIN_LISTCTRL_RENAME     		WM_USER + 10008
+#define WM_RXSKIN_LISTCTRL_ITEM_CLICK     	WM_USER + 10009
+
+#define WM_RXSKIN_TRAYICON					WM_USER + 10010// Õ–≈Ãœ˚œ¢
+
+#define RXSKIN_INVALIDATE_WND         (HWND)-1
+#endif

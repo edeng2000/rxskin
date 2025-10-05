@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{88ABC60F-B4BC-4F84-A3CB-76CAA027D71A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>rxskin</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\obj\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;RXSKIN_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WIN64;WIN32;CXIMAGE_USE_LIBPSD;_RXIMAGE_DLL_;USE_FREEIMAGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/tinyxml/;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/SDL-release-2.30.6/include;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/freeimage/include;../../../lib3rd/stb</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>..\..\..\lib\Debug\$(TargetName).lib</ImportLibrary>
+      <OutputFile>..\..\..\bin\$(ProjectName)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>../../../lib3rd/cximage/lib/Unicode_Debug;..\..\..\lib\Debug;../../../lib3rd/scintilla/bin/Debug;../../../lib3rd/FreeImage/lib/Debug;../../../lib3rd\SDL-release-2.30.6\lib/Debug;../../../lib3rd/giflib-5.2.2/lib/debug;../../../lib3rd/freeimage/lib/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;SDL2d.lib;Freeimaged.lib;FreeImagePlusd.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /r /y "..\..\..\bin\rxskin\Debug\*.dll" "..\..\..\bin\rxremote\$(Configuration)"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Unicode_Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <OutputFile>..\..\..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/stb;../../../lib3rd/zlib/include;../../../lib3rd/skia/include;../../../lib3rd/skia;../../../lib3rd/json;../../../lib3rd/skia/include/core;../../../lib3rd/freeimage/include;..\..\..\lib3rd\sgdp\include\gnu</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
+      <OutputFile>..\..\..\bin\$(ProjectName)\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>../../../lib3rd/cximage/lib/win32/Unicode_Debug;..\..\..\lib\win32\Debug;../../../lib3rd/FreeImage/lib/Debug;../../../lib3rd/giflib-5.2.2/lib/win32/debug;../../..\lib3rd\libiconv\lib\win32\debug;..\..\..\lib3rd\cximage\src\lib\Win32\Unicode_Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;Msimg32.lib;libiconv.lib;GifLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Win32\Unicode_Debug;..\..\..\lib3rd\zipper\lib\Debug;..\..\..\lib3rd\skia\lib\Win32\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;skia.lib;Usp10.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/freeimage/include;../../../lib3rd/stb;../../../lib3rd/zlib/include;../../../lib3rd/skia/include;../../../lib3rd/skia;../../../lib3rd/json;../../../lib3rd/skia/include/core;..\..\..\lib3rd\sgdp\include\gnu</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Win32\Unicode_Release;..\..\..\lib3rd\skia\lib\Win32\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;skia.lib;Usp10.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;RXSKIN_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WIN64;WIN32;CXIMAGE_USE_LIBPSD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/tinyxml/;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/SDL-release-2.30.6/include;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/freeimage/include;../../../stb</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <OutputFile>..\..\..\bin\$(ProjectName)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>..\..\..\lib\Release\$(TargetName).lib</ImportLibrary>
+      <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>../../../lib3rd/cximage/lib/Unicode_Release;..\..\..\lib\Release;../../../lib3rd/SDL-release-2.30.6/lib/Release;../../../lib3rd/giflib-5.2.2/lib/Release;../../../lib3rd/freeimage/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;SDL2.lib;FreeImage.lib;FreeImagePlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Lib>
+      <OutputFile>..\..\..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>cximage.lib;jasper.lib;jbig.lib;jpeg.lib;libdcr.lib;libpsd.lib;tiff.lib;zlib.lib;mng.lib;png.lib;Vfw32.lib;Winmm.lib;strmiids.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Unicode_Release</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="include\common\drawmgr.h" />
+    <ClInclude Include="include\common\EasyGifReader.h" />
+    <ClInclude Include="include\common\graphics.h" />
+    <ClInclude Include="include\common\imagemgr.h" />
+    <ClInclude Include="include\common\rximage.h" />
+    <ClInclude Include="include\common\rximagemodel.h" />
+    <ClInclude Include="include\common\rxskindefines.h" />
+    <ClInclude Include="include\common\rxskinfont.h" />
+    <ClInclude Include="include\common\rxskinimagelist.h" />
+    <ClInclude Include="include\common\rxskinmemdc.h" />
+    <ClInclude Include="include\common\rxskinresourcemgr.h" />
+    <ClInclude Include="include\common\rxskinservice.h" />
+    <ClInclude Include="include\common\rxskinutil.h" />
+    <ClInclude Include="include\controls\rxcontrol.h" />
+    <ClInclude Include="include\controls\rxskinbrowser.h" />
+    <ClInclude Include="include\controls\rxskinchild.h" />
+    <ClInclude Include="include\controls\rxskincolorpicker.h" />
+    <ClInclude Include="include\controls\rxskincombobox.h" />
+    <ClInclude Include="include\controls\rxskindatepicker.h" />
+    <ClInclude Include="include\controls\rxskinedit.h" />
+    <ClInclude Include="include\controls\rxskingif.h" />
+    <ClInclude Include="include\controls\rxskinhotkeyctrl.h" />
+    <ClInclude Include="include\controls\rxskinitem.h" />
+    <ClInclude Include="include\controls\rxskinlistctrl.h" />
+    <ClInclude Include="include\controls\rxskinlocationpicker.h" />
+    <ClInclude Include="include\controls\rxskinmenu.h" />
+    <ClInclude Include="include\controls\rxskinmenubar.h" />
+    <ClInclude Include="include\controls\rxskinoutbar.h" />
+    <ClInclude Include="include\controls\rxskinprogress.h" />
+    <ClInclude Include="include\controls\rxskinrichedit.h" />
+    <ClInclude Include="include\controls\rxskinricholeobject.h" />
+    <ClInclude Include="include\controls\rxskinrichtexthost.h" />
+    <ClInclude Include="include\controls\rxskinscrollbar.h" />
+    <ClInclude Include="include\controls\rxskinsearch.h" />
+    <ClInclude Include="include\controls\rxskinslider.h" />
+    <ClInclude Include="include\controls\rxskinspinedit.h" />
+    <ClInclude Include="include\controls\rxskintabctrl.h" />
+    <ClInclude Include="include\controls\rxskintaskbarnotifier.h" />
+    <ClInclude Include="include\controls\rxskintooltip.h" />
+    <ClInclude Include="include\controls\rxskintrayicon.h" />
+    <ClInclude Include="include\controls\rxskintree.h" />
+    <ClInclude Include="include\controls\rxskinwebbrowser.h" />
+    <ClInclude Include="include\controls\WebBrowserEventHandler.h" />
+    <ClInclude Include="include\main\rxskinapp.h" />
+    <ClInclude Include="include\main\rxskinchildwnd.h" />
+    <ClInclude Include="include\main\rxskindialog.h" />
+    <ClInclude Include="include\main\rxskineditwnd.h" />
+    <ClInclude Include="include\main\rxskinfileselect.h" />
+    <ClInclude Include="include\main\rxskinfolderselect.h" />
+    <ClInclude Include="include\main\rxskinmessagebox.h" />
+    <ClInclude Include="include\main\rxskinnewfolder.h" />
+    <ClInclude Include="include\main\rxskinwaiting.h" />
+    <ClInclude Include="include\main\rxskinwnd.h" />
+    <ClInclude Include="include\resize\resizablemsgsupport.h" />
+    <ClInclude Include="include\resize\resizableversion.h" />
+    <ClInclude Include="include\resize\rxskinresizepoint.h" />
+    <ClInclude Include="include\resize\rxskinresizerect.h" />
+    <ClInclude Include="include\rxskinincludes.h" />
+    <ClInclude Include="include\skia\drawtext-skia.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="rxskinres.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\drawmgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\EasyGifReader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\graphics.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\imagemgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\rximagemodel.cpp" />
+    <ClCompile Include="src\common\rxskinfont.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinimagelist.cpp" />
+    <ClCompile Include="src\common\rxskinmemdc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinresourcemgr.cpp" />
+    <ClCompile Include="src\common\rxskinservice.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\common\rxskinutil.cpp" />
+    <ClCompile Include="src\common\TxDIB.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\controls\rxcontrol.cpp" />
+    <ClCompile Include="src\controls\rxskinbrowser.cpp" />
+    <ClCompile Include="src\controls\rxskinchild.cpp" />
+    <ClCompile Include="src\controls\rxskincolorpicker.cpp" />
+    <ClCompile Include="src\controls\rxskincombobox.cpp" />
+    <ClCompile Include="src\controls\rxskindatepicker.cpp" />
+    <ClCompile Include="src\controls\rxskinedit.cpp" />
+    <ClCompile Include="src\controls\rxskingif.cpp" />
+    <ClCompile Include="src\controls\rxskinhotkeyctrl.cpp" />
+    <ClCompile Include="src\controls\rxskinitem.cpp" />
+    <ClCompile Include="src\controls\rxskinlistctrl.cpp" />
+    <ClCompile Include="src\controls\rxskinlocationpicker.cpp" />
+    <ClCompile Include="src\controls\rxskinmenu.cpp" />
+    <ClCompile Include="src\controls\rxskinmenubar.cpp" />
+    <ClCompile Include="src\controls\rxskinoutbar.cpp" />
+    <ClCompile Include="src\controls\rxskinprogress.cpp" />
+    <ClCompile Include="src\controls\rxskinrichedit.cpp" />
+    <ClCompile Include="src\controls\rxskinrichtexthost.cpp" />
+    <ClCompile Include="src\controls\rxskinscrollbar.cpp" />
+    <ClCompile Include="src\controls\rxskinsearch.cpp" />
+    <ClCompile Include="src\controls\rxskinslider.cpp" />
+    <ClCompile Include="src\controls\rxskinspinedit.cpp" />
+    <ClCompile Include="src\controls\rxskintabctrl.cpp" />
+    <ClCompile Include="src\controls\rxskintaskbarnotifier.cpp" />
+    <ClCompile Include="src\controls\rxskintooltip.cpp" />
+    <ClCompile Include="src\controls\rxskintrayicon.cpp" />
+    <ClCompile Include="src\controls\rxskintree.cpp" />
+    <ClCompile Include="src\controls\rxskinwebbrowser.cpp" />
+    <ClCompile Include="src\main\rxskinapp.cpp" />
+    <ClCompile Include="src\main\rxskinchildwnd.cpp" />
+    <ClCompile Include="src\main\rxskindialog.cpp" />
+    <ClCompile Include="src\main\rxskineditwnd.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\main\rxskinfileselect.cpp" />
+    <ClCompile Include="src\main\rxskinfolderselect.cpp" />
+    <ClCompile Include="src\main\rxskinmessagebox.cpp" />
+    <ClCompile Include="src\main\rxskinnewfolder.cpp" />
+    <ClCompile Include="src\main\rxskinwaiting.cpp" />
+    <ClCompile Include="src\main\rxskinwnd.cpp" />
+    <ClCompile Include="src\resize\resizablemsgsupport.cpp" />
+    <ClCompile Include="src\resize\resizableversion.cpp" />
+    <ClCompile Include="src\resize\rxskinresizepoint.cpp" />
+    <ClCompile Include="src\resize\rxskinresizerect.cpp" />
+    <ClCompile Include="src\skia\drawtext-skia.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rxskin.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rxskin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\skins\btn_close.png" />
+    <Image Include="res\skins\btn_close_down.png" />
+    <Image Include="res\skins\btn_close_hover.png" />
+    <Image Include="res\skins\btn_maximize.png" />
+    <Image Include="res\skins\btn_maximize_down.png" />
+    <Image Include="res\skins\btn_maximize_hover.png" />
+    <Image Include="res\skins\btn_minimize.png" />
+    <Image Include="res\skins\btn_minimize_down.png" />
+    <Image Include="res\skins\btn_minimize_hover.png" />
+    <Image Include="res\skins\btn_restore.png" />
+    <Image Include="res\skins\btn_restore_down.png" />
+    <Image Include="res\skins\btn_restore_hover.png" />
+    <Image Include="res\skins\btn_search_down.png" />
+    <Image Include="res\skins\btn_search_normal.png" />
+    <Image Include="res\skins\checkbox.png" />
+    <Image Include="res\skins\checkbox_h.png" />
+    <Image Include="res\skins\checkbox_p.png" />
+    <Image Include="res\skins\error.png" />
+    <Image Include="res\skins\help.png" />
+    <Image Include="res\skins\icn_collapse.png" />
+    <Image Include="res\skins\icn_collapse_hover.png" />
+    <Image Include="res\skins\icn_expand.png" />
+    <Image Include="res\skins\icn_expand_hover.png" />
+    <Image Include="res\skins\radio.png" />
+    <Image Include="res\skins\radio_h.png" />
+    <Image Include="res\skins\radio_p.png" />
+    <Image Include="res\skins\scrollbar.png" />
+    <Image Include="res\skins\scrollbar_hor.png" />
+    <Image Include="res\skins\tip.png" />
+    <Image Include="res\skins\warn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\configs\common.xml" />
+    <Xml Include="res\configs\folder_select.xml" />
+    <Xml Include="res\configs\messagebox.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
