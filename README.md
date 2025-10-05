@@ -1,2 +1,2 @@
 # rxskin
-是一个界面库，包含了一整套桌面软件的开发部件，使用C++语言开发。nim duilib是在NIM_Duilib_Framework库的基础上进行了代码功能完善和扩展，但由于代码结构和资源XML文件的格式均有调整，所以不能直接兼容基于NIM_Duilib_Framework开发的程序，但代码和资源XML迁移的难度不大。您可以直接使用nim_duilib界面库来开发常用的桌面应用，以简化应用程序的UI开发工作。    
+RXSkin是一个windows平台下界面库，包含了一整套桌面软件的开发部件，使用C++语言开发。RXSkin底层原理是基于：DirectUI技术，参考了duilib库的实现原理，但完全没有引用duilib代码，主要是借鉴了其设计思想。您可以直接使用RXSkin界面库来开发常用的桌面应用，以简化应用程序的UI开发工作。    
