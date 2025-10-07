@@ -1607,7 +1607,7 @@ png_image_begin_read_from_file(png_imagep image, const char *file_name)
          }
 
          else
-            return png_image_error(image, strerror(errno));
+            return png_image_error(image, "");
       }
 
       else

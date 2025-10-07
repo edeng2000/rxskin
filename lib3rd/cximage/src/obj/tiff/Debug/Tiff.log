@@ -1,0 +1,41 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  tif_zip.c
+  tif_write.c
+  tif_warning.c
+  tif_version.c
+  tif_tile.c
+  tif_thunder.c
+  tif_swab.c
+  tif_strip.c
+  tif_read.c
+  tif_print.c
+  tif_predict.c
+  tif_pixarlog.c
+  tif_packbits.c
+  tif_open.c
+  tif_ojpeg.c
+  tif_next.c
+  tif_lzw.c
+  tif_luv.c
+  tif_jpeg.c
+  tif_getimage.c
+  正在生成代码...
+  正在编译...
+  tif_flush.c
+  tif_fax3sm.c
+  tif_fax3.c
+  tif_error.c
+  tif_dumpmode.c
+  tif_dirwrite.c
+  tif_dirread.c
+  tif_dirinfo.c
+F:\work\git\rxskin\lib3rd\cximage\src\tiff\tif_dirinfo.c(795,40): warning C4996: '_lfind': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lfind. See online help for details.
+  tif_dir.c
+  tif_compress.c
+  tif_color.c
+  tif_codec.c
+  tif_close.c
+  tif_aux.c
+  正在生成代码...
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\src\obj\tiff\Debug\tiff.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Debug\tiff.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+  Tiff.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\src\obj\tiff\Debug\tiff.lib

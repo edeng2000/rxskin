@@ -1,0 +1,108 @@
+﻿  pch.cpp
+  adjustment.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\adjustment.c(265,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  bevel_emboss.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\bevel_emboss.c(693,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  bitmap.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\bitmap.c(911,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  blend.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\blend.c(1306,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  boundary.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\boundary.c(3485,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  brightness_contrast.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\brightness_contrast.c(121,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  channel_image.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_image.c(1050,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  channel_mixer.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_mixer.c(162,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  color.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color.c(416,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  color_balance.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_balance.c(190,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  color_mode.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_mode.c(81,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  color_overlay.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_overlay.c(214,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  curves.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\curves.c(383,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  descriptor.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\descriptor.c(1315,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  drop_shadow.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\drop_shadow.c(436,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  effects.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(809,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  file_header.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\file_header.c(126,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  fixed.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\fixed.c(169,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  gaussian_blur.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gaussian_blur.c(246,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  gradient_blend.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_blend.c(891,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在生成代码...
+  正在编译...
+  gradient_fill.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_fill.c(166,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  gradient_map.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_map.c(262,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  gradient_overlay.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_overlay.c(323,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  hue_saturation.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\hue_saturation.c(247,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  image_data.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_data.c(899,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  image_resource.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(731,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  inner_glow.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\inner_glow.c(443,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  inner_shadow.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\inner_shadow.c(388,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  invert.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\invert.c(65,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  layer_mask.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\layer_mask.c(917,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  levels.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\levels.c(254,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  outer_glow.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\outer_glow.c(397,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  path.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\path.c(222,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  pattern.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern.c(998,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  pattern_fill.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_fill.c(113,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  pattern_overlay.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_overlay.c(224,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  photo_filter.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\photo_filter.c(75,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  posterize.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\posterize.c(97,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  psd.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\psd.c(264,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  psd_system.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\psd_system.c(62,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在生成代码...
+  正在编译...
+  psd_zip.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\psd_zip.c(147,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  rect.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\rect.c(161,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  satin.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\satin.c(373,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  selective_color.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\selective_color.c(212,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  solid_color.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\solid_color.c(84,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  stream.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stream.c(453,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  stroke.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stroke.c(547,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  test.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\test.c(51,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  threshold.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\threshold.c(92,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  thumbnail.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\thumbnail.c(506,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  type_tool.c
+F:\work\git\rxskin\lib3rd\cximage\src\libpsd\type_tool.c(222,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在生成代码...

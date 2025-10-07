@@ -1,0 +1,66 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  xmemfile.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\xmemfile.cpp(1,10): fatal error C1083: 无法打开包括文件: “xmemfile.h”: No such file or directory
+  ximawnd.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawnd.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximawmf.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawmf.cpp(48,10): fatal error C1083: 无法打开包括文件: “ximawmf.h”: No such file or directory
+  ximawbmp.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawbmp.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximawbmp.h”: No such file or directory
+  ximatran.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximatran.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximatif.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximatif.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximatif.h”: No such file or directory
+  ximath.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximath.cpp(1,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximatga.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximatga.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximatga.h”: No such file or directory
+  ximaska.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaska.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximaska.h”: No such file or directory
+  ximasel.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximasel.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximaraw.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaraw.cpp(13,10): fatal error C1083: 无法打开包括文件: “ximaraw.h”: No such file or directory
+  ximapsd.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximapsd.cpp(15,10): fatal error C1083: 无法打开包括文件: “ximapsd.h”: No such file or directory
+  ximapng.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximapng.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximapng.h”: No such file or directory
+  ximapcx.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximapcx.cpp(12,10): fatal error C1083: 无法打开包括文件: “ximapcx.h”: No such file or directory
+  ximapal.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximapal.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximalyr.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximalyr.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximalpha.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximalpha.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximajpg.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajpg.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximajpg.h”: No such file or directory
+  ximajbg.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajbg.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximajbg.h”: No such file or directory
+  ximajas.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximajas.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  ximaint.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaint.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximainfo.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximainfo.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximaico.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaico.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximaico.h”: No such file or directory
+  ximahist.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximahist.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximagif.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximagif.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximagif.h”: No such file or directory
+  xImage.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\xImage.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximaexif.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaexif.cpp(9,10): fatal error C1083: 无法打开包括文件: “ximajpg.h”: No such file or directory
+  ximaenc.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaenc.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximadsp.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximadsp.cpp(6,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  ximabmp.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximabmp.cpp(8,10): fatal error C1083: 无法打开包括文件: “ximabmp.h”: No such file or directory
+  tif_xfile.cpp
+F:\work\git\rxskin\lib3rd\cximage\src\CxImage\tif_xfile.cpp(10,10): fatal error C1083: 无法打开包括文件: “ximage.h”: No such file or directory
+  正在生成代码...

@@ -2431,7 +2431,7 @@ png_image_write_to_file(png_imagep image, const char *file_name,
                /* The image has already been cleaned up; this is just used to
                 * set the error (because the original write succeeded).
                 */
-               return png_image_error(image, strerror(error));
+               return png_image_error(image, "");
             }
 
             else
@@ -2444,7 +2444,7 @@ png_image_write_to_file(png_imagep image, const char *file_name,
          }
 
          else
-            return png_image_error(image, strerror(errno));
+            return png_image_error(image, "");
       }
 
       else
