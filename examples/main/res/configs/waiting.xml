@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="450,360" area="RECT(100,20,470,250)" resize="false">
+	<content offsetx="10" offsettop = "5" offsetbottom="10"/>
+	<Borders need="true" round="6,6">
+		<Top src="\..\skins\top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="\..\skins\bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="\..\skins\left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="\..\skins\right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="132" hotsrc="134" downsrc="133" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="135" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="RX' Remote" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(2,445,548,470)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" />
+	</Background>
+	<Controls>	
+		<Control id="1070001" type="RXSkinGif" text=""
+			tooltip=""
+			area="RECT(35,40,485,100)"
+			border="true" 
+			aligntopleft="TOP_LEFT" 
+			alignbottomright="BOTTOM_RIGHT"
+			bkcolor="RGB(201,212,215)"
+			textcolor="RGB(21,42,45)"
+			src="131"
+			bordercolor="RGB(0,212,215)">
+		</Control>
+		<!---Control id="1070002" type="RXSkinStatic" text="资源加载中。。。" tooltip="" area="RECT(110,250,360,270)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/--->
+	</Controls>
+</Window>
