@@ -16,4 +16,11 @@ RXSkin是一个windows平台下界面库，包含了一整套桌面软件的开�
 
 ###  编译过程
 
+&emsp;&emsp;1>、在项目根目录下tools子目录下，执行buid.exe，根据提示，选择visual studio版本，然后生成编译脚本：build_sln.bat,
+&emsp;&emsp;2>、执行：build_sln.bat，安静等待编译结束
+&emsp;&emsp;3>、编译结束后，会在，会在根目录下的lib目录下，找到生成lib文件，在bin目录下找到dll文件
+&emsp;&emsp;4>、祝您顺利和开心
 
+### 效果图
+
+<img src="http://www.rxiang.net/img/6.png">    
