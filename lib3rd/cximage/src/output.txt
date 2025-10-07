@@ -1,0 +1,800 @@
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: rximage, 配置: Unicode_Debug Win32 ------
+2>------ 已启动全部重新生成: 项目: jasper, 配置: Unicode_Debug Win32 ------
+3>------ 已启动全部重新生成: 项目: jbig, 配置: Unicode_Debug Win32 ------
+4>------ 已启动全部重新生成: 项目: jpeg, 配置: Unicode_Debug Win32 ------
+5>------ 已启动全部重新生成: 项目: libdcr, 配置: Unicode_Debug Win32 ------
+6>------ 已启动全部重新生成: 项目: tiff, 配置: Unicode_Debug Win32 ------
+7>------ 已启动全部重新生成: 项目: zlib, 配置: Unicode_Debug Win32 ------
+8>------ 已启动全部重新生成: 项目: libpsd, 配置: Unicode_Debug Win32 ------
+9>------ 已启动全部重新生成: 项目: mng, 配置: Unicode_Debug Win32 ------
+10>------ 已启动全部重新生成: 项目: png, 配置: Unicode_Debug Win32 ------
+10>png.c
+8>adjustment.c
+7>adler32.c
+6>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+5>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+9>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+3>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+2>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+4>jaricom.c
+4>Jcapimin.c
+7>compress.c
+8>bevel_emboss.c
+10>pngerror.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\bevel_emboss.c(197,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\bevel_emboss.c(666,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>bitmap.c
+7>crc32.c
+7>deflate.c
+4>Jcapistd.c
+3>jbig_tab.c
+5>libdcr.c
+4>jcarith.c
+7>infback.c
+8>blend.c
+1>xmemfile.cpp
+3>jbig.c
+2>ras_enc.c
+6>tif_zip.c
+6>tif_write.c
+9>libmng_zlib.c
+9>libmng_write.c
+9>libmng_trace.c
+9>libmng_read.c
+10>pngget.c
+10>pngmem.c
+4>Jccoefct.c
+4>Jccolor.c
+4>Jcdctmgr.c
+4>Jchuff.c
+4>Jcinit.c
+4>Jcmainct.c
+4>Jcmarker.c
+4>Jcmaster.c
+4>Jcomapi.c
+4>Jcparam.c
+4>Jcprepct.c
+4>Jcsample.c
+4>Jctrans.c
+4>Jdapimin.c
+4>Jdapistd.c
+4>jdarith.c
+4>正在生成代码...
+7>inffast.c
+7>inflate.c
+7>inftrees.c
+7>trees.c
+7>uncompr.c
+7>zutil.c
+7>正在生成代码...
+8>boundary.c
+8>brightness_contrast.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\brightness_contrast.c(49,8): warning C4013: “memset”未定义；假设外部返回 int
+8>channel_image.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_image.c(705,10): warning C4013: “memcpy”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_image.c(897,14): warning C4013: “memset”未定义；假设外部返回 int
+8>channel_mixer.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_mixer.c(51,8): warning C4013: “memset”未定义；假设外部返回 int
+8>color.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color.c(299,9): warning C4013: “memcpy”未定义；假设外部返回 int
+8>color_balance.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_balance.c(65,8): warning C4013: “memset”未定义；假设外部返回 int
+8>color_mode.c
+8>color_overlay.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_overlay.c(198,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>curves.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\curves.c(67,8): warning C4013: “memset”未定义；假设外部返回 int
+8>descriptor.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\descriptor.c(787,12): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\descriptor.c(919,11): warning C4013: “memset”未定义；假设外部返回 int
+8>drop_shadow.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\drop_shadow.c(166,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\drop_shadow.c(386,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>effects.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(82,8): warning C4013: “memset”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(217,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(395,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>file_header.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\file_header.c(56,12): warning C4013: “memcmp”未定义；假设外部返回 int
+8>fixed.c
+8>gaussian_blur.c
+8>gradient_blend.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_blend.c(362,10): warning C4013: “memcpy”未定义；假设外部返回 int
+8>正在生成代码...
+3>正在生成代码...
+2>ras_dec.c
+2>ras_cod.c
+2>pnm_enc.c
+6>tif_warning.c
+6>tif_version.c
+6>tif_tile.c
+6>tif_thunder.c
+6>tif_swab.c
+6>tif_strip.c
+6>tif_read.c
+6>tif_print.c
+6>tif_predict.c
+6>tif_pixarlog.c
+6>tif_packbits.c
+6>tif_open.c
+6>tif_ojpeg.c
+6>tif_next.c
+6>tif_lzw.c
+6>tif_luv.c
+6>tif_jpeg.c
+6>tif_getimage.c
+9>libmng_prop_xs.c
+9>libmng_pixels.c
+9>libmng_object_prc.c
+9>libmng_jpeg.c
+9>libmng_hlapi.c
+9>libmng_filter.c
+9>libmng_error.c
+9>libmng_dither.c
+6>正在生成代码...
+10>pngpread.c
+9>libmng_display.c
+2>pnm_dec.c
+9>libmng_cms.c
+9>libmng_chunk_xs.c
+1>ximawnd.cpp
+9>libmng_chunk_prc.c
+4>正在编译...
+4>Jdatadst.c
+3>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jbig\jbig.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\jbig.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+9>libmng_chunk_io.c
+6>正在编译...
+6>tif_flush.c
+8>正在编译...
+8>gradient_fill.c
+4>Jdatasrc.c
+5>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libdcr\libdcr.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\libdcr.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>pnm_cod.c
+9>libmng_chunk_descr.c
+10>pngread.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_fill.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+8>gradient_map.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_map.c(53,8): warning C4013: “memset”未定义；假设外部返回 int
+8>gradient_overlay.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_overlay.c(307,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>hue_saturation.c
+6>tif_fax3sm.c
+7>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\zlib\zlib.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\zlib.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+4>Jdcoefct.c
+4>Jdcolor.c
+6>tif_fax3.c
+9>libmng_callback_xs.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\hue_saturation.c(51,8): warning C4013: “memset”未定义；假设外部返回 int
+8>image_data.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_data.c(598,14): warning C4013: “memcpy”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_data.c(610,14): warning C4013: “memset”未定义；假设外部返回 int
+8>image_resource.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(164,14): warning C4013: “memset”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(170,14): warning C4013: “memcpy”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(58,13): warning C4101: “status”: 未引用的局部变量
+8>inner_glow.c
+4>Jddctmgr.c
+4>Jdhuff.c
+6>tif_error.c
+6>tif_dumpmode.c
+9>正在生成代码...
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\inner_glow.c(381,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>inner_shadow.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\inner_shadow.c(341,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>invert.c
+8>layer_mask.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\layer_mask.c(80,8): warning C4013: “memset”未定义；假设外部返回 int
+4>Jdinput.c
+8>levels.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\levels.c(54,8): warning C4013: “memset”未定义；假设外部返回 int
+8>outer_glow.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\outer_glow.c(340,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>path.c
+8>pattern.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern.c(530,8): warning C4013: “memset”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern.c(740,12): warning C4013: “memcpy”未定义；假设外部返回 int
+6>tif_dirwrite.c
+6>tif_dirread.c
+4>Jdmainct.c
+4>Jdmarker.c
+8>pattern_fill.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_fill.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+8>pattern_overlay.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_overlay.c(88,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_overlay.c(208,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>photo_filter.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\photo_filter.c(43,8): warning C4013: “memset”未定义；假设外部返回 int
+8>posterize.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\posterize.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+6>tif_dirinfo.c
+6>F:\work\git\rxskin\lib3rd\cximage\src\tiff\tif_dirinfo.c(795,40): warning C4996: '_lfind': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lfind. See online help for details.
+6>tif_dir.c
+2>pgx_enc.c
+4>Jdmaster.c
+4>Jdmerge.c
+10>pngrio.c
+6>tif_compress.c
+6>tif_color.c
+8>psd.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\psd.c(68,8): warning C4013: “memset”未定义；假设外部返回 int
+8>psd_system.c
+8>正在生成代码...
+4>Jdpostct.c
+4>Jdsample.c
+9>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\mng\mng.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\mng.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+6>tif_codec.c
+6>tif_close.c
+4>Jdtrans.c
+4>Jerror.c
+8>正在编译...
+8>psd_zip.c
+6>tif_aux.c
+6>正在生成代码...
+4>Jfdctflt.c
+8>rect.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\rect.c(111,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>satin.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\satin.c(342,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>selective_color.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\selective_color.c(50,8): warning C4013: “memset”未定义；假设外部返回 int
+2>pgx_dec.c
+4>Jfdctfst.c
+4>Jfdctint.c
+10>pngrtran.c
+8>solid_color.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\solid_color.c(46,8): warning C4013: “memset”未定义；假设外部返回 int
+8>stream.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stream.c(128,10): warning C4101: “left”: 未引用的局部变量
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stream.c(206,10): warning C4101: “left”: 未引用的局部变量
+8>stroke.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stroke.c(104,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stroke.c(401,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>test.c
+4>Jidctflt.c
+4>Jidctfst.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\test.c(47,10): warning C4013: “psd_free”未定义；假设外部返回 int
+8>threshold.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\threshold.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+8>thumbnail.c
+8>type_tool.c
+6>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\tiff\tiff.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\tiff.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+4>正在生成代码...
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\type_tool.c(43,8): warning C4013: “memset”未定义；假设外部返回 int
+8>正在生成代码...
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawnd.cpp(1019,11): warning C4244: “=”: 从“int32_t”转换到“float”，可能丢失数据
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawnd.cpp(1031,11): warning C4244: “=”: 从“int32_t”转换到“float”，可能丢失数据
+4>正在编译...
+4>Jidctint.c
+1>ximawmf.cpp
+2>pgx_cod.c
+4>Jmemmgr.c
+10>pngrutil.c
+4>Jmemnobs.c
+4>Jquant1.c
+4>Jquant2.c
+8>libpsd.cpp
+4>Jutils.c
+4>正在生成代码...
+8>pch.cpp
+8>正在生成代码...
+8>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libpsd\libpsd.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\libpsd.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>mif_cod.c
+6>Tiff.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\tiff\tiff.lib
+8>libpsd.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libpsd\libpsd.lib
+4>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jpeg\jpeg.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\jpeg.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+10>pngset.c
+5>libdcr.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libdcr\libdcr.lib
+9>mng.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\mng\mng.lib
+7>zlib.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\zlib\zlib.lib
+8>已完成生成项目“libpsd.vcxproj”的操作。
+6>已完成生成项目“Tiff.vcxproj”的操作。
+4>Jpeg.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jpeg\jpeg.lib
+5>已完成生成项目“libdcr.vcxproj”的操作。
+9>已完成生成项目“mng.vcxproj”的操作。
+7>已完成生成项目“zlib.vcxproj”的操作。
+3>jbig.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jbig\jbig.lib
+4>已完成生成项目“Jpeg.vcxproj”的操作。
+3>已完成生成项目“jbig.vcxproj”的操作。
+2>jpg_val.c
+1>ximawbmp.cpp
+10>pngtrans.c
+2>jpg_dummy.c
+10>pngwio.c
+2>jpc_util.c
+10>pngwrite.c
+1>ximatran.cpp
+2>jpc_tsfb.c
+10>pngwtran.c
+2>jpc_tagtree.c
+10>pngwutil.c
+1>ximatif.cpp
+2>jpc_t2enc.c
+10>正在生成代码...
+2>jpc_t2dec.c
+10>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\png\png.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\png.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>jpc_t2cod.c
+10>png.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\png\png.lib
+1>ximath.cpp
+10>已完成生成项目“png.vcxproj”的操作。
+2>jpc_t1enc.c
+2>jpc_t1dec.c
+1>ximatga.cpp
+2>正在生成代码...
+2>正在编译...
+2>jpc_t1cod.c
+2>jpc_qmfb.c
+1>ximaska.cpp
+2>jpc_mqenc.c
+2>jpc_mqdec.c
+1>ximasel.cpp
+2>jpc_mqcod.c
+2>jpc_mct.c
+1>ximaraw.cpp
+2>jpc_math.c
+2>jpc_enc.c
+2>jpc_dec.c
+1>ximapsd.cpp
+2>jpc_cs.c
+2>jpc_bs.c
+1>ximapng.cpp
+2>jp2_enc.c
+2>jp2_dec.c
+2>jp2_cod.c
+1>ximapcx.cpp
+2>bmp_enc.c
+2>bmp_dec.c
+1>ximapal.cpp
+2>bmp_cod.c
+2>jas_version.c
+2>jas_tvp.c
+2>jas_string.c
+2>正在生成代码...
+2>正在编译...
+2>jas_stream.c
+1>ximalyr.cpp
+2>jas_seq.c
+2>jas_malloc.c
+2>jas_init.c
+1>ximalpha.cpp
+2>jas_image.c
+2>jas_iccdata.c
+1>ximajpg.cpp
+2>jas_icc.c
+2>jas_getopt.c
+1>ximajbg.cpp
+2>jas_debug.c
+2>jas_cm.c
+2>正在生成代码...
+1>ximajas.cpp
+2>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jasper\jasper.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\jasper.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>jasper.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jasper\jasper.lib
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(250,16): warning C4018: “<”: 有符号/无符号不匹配
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(252,16): warning C4018: “<”: 有符号/无符号不匹配
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(314,16): warning C4018: “<”: 有符号/无符号不匹配
+2>已完成生成项目“jasper.vcxproj”的操作。
+1>正在生成代码...
+1>正在编译...
+1>ximaint.cpp
+1>ximainfo.cpp
+1>ximaico.cpp
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaico.cpp(325,30): warning C4838: 从“int32_t”转换到“uint16_t”需要收缩转换
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaico.cpp(348,6): warning C4838: 从“int32_t”转换到“DWORD”需要收缩转换
+1>ximahist.cpp
+1>ximagif.cpp
+1>xImage.cpp
+1>ximaexif.cpp
+1>ximaenc.cpp
+1>ximadsp.cpp
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximadsp.cpp(2910,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+1>ximabmp.cpp
+1>tif_xfile.cpp
+1>正在生成代码...
+1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+1>ximamng.cpp
+1>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\rximage\rximage.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\rximage.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+1>cximage.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\rximage\rximage.lib
+1>已完成生成项目“cximage.vcxproj”的操作。
+========== 全部重新生成: 成功 10 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: rximage, 配置: Unicode_Debug Win32 ------
+2>------ 已启动全部重新生成: 项目: jasper, 配置: Unicode_Debug Win32 ------
+3>------ 已启动全部重新生成: 项目: jbig, 配置: Unicode_Debug Win32 ------
+4>------ 已启动全部重新生成: 项目: jpeg, 配置: Unicode_Debug Win32 ------
+5>------ 已启动全部重新生成: 项目: libdcr, 配置: Unicode_Debug Win32 ------
+6>------ 已启动全部重新生成: 项目: tiff, 配置: Unicode_Debug Win32 ------
+7>------ 已启动全部重新生成: 项目: zlib, 配置: Unicode_Debug Win32 ------
+8>------ 已启动全部重新生成: 项目: libpsd, 配置: Unicode_Debug Win32 ------
+9>------ 已启动全部重新生成: 项目: mng, 配置: Unicode_Debug Win32 ------
+10>------ 已启动全部重新生成: 项目: png, 配置: Unicode_Debug Win32 ------
+1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+1>xmemfile.cpp
+9>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+9>libmng_zlib.c
+2>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+2>ras_enc.c
+3>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+3>jbig_tab.c
+9>libmng_write.c
+3>jbig.c
+9>libmng_trace.c
+3>正在生成代码...
+4>jaricom.c
+2>ras_dec.c
+9>libmng_read.c
+9>libmng_prop_xs.c
+4>Jcapimin.c
+4>Jcapistd.c
+3>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jbig\jbig.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\jbig.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+1>ximawnd.cpp
+9>libmng_pixels.c
+5>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+5>libdcr.c
+4>jcarith.c
+4>Jccoefct.c
+3>jbig.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jbig\jbig.lib
+3>已完成生成项目“jbig.vcxproj”的操作。
+9>libmng_object_prc.c
+4>Jccolor.c
+4>Jcdctmgr.c
+9>libmng_jpeg.c
+9>libmng_hlapi.c
+4>Jchuff.c
+4>Jcinit.c
+4>Jcmainct.c
+2>ras_cod.c
+6>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+6>tif_zip.c
+9>libmng_filter.c
+9>libmng_error.c
+4>Jcmarker.c
+4>Jcmaster.c
+2>pnm_enc.c
+6>tif_write.c
+6>tif_warning.c
+7>adler32.c
+9>libmng_dither.c
+9>libmng_display.c
+4>Jcomapi.c
+4>Jcparam.c
+7>compress.c
+7>crc32.c
+7>deflate.c
+6>tif_version.c
+6>tif_tile.c
+6>tif_thunder.c
+9>libmng_cms.c
+4>Jcprepct.c
+4>Jcsample.c
+7>infback.c
+7>inffast.c
+7>inflate.c
+9>libmng_chunk_xs.c
+6>tif_swab.c
+6>tif_strip.c
+4>Jctrans.c
+4>Jdapimin.c
+5>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libdcr\libdcr.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\libdcr.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>pnm_dec.c
+8>adjustment.c
+6>tif_read.c
+6>tif_print.c
+7>inftrees.c
+7>trees.c
+7>uncompr.c
+9>libmng_chunk_prc.c
+9>libmng_chunk_io.c
+4>Jdapistd.c
+4>jdarith.c
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawnd.cpp(1019,11): warning C4244: “=”: 从“int32_t”转换到“float”，可能丢失数据
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximawnd.cpp(1031,11): warning C4244: “=”: 从“int32_t”转换到“float”，可能丢失数据
+5>libdcr.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libdcr\libdcr.lib
+8>bevel_emboss.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\bevel_emboss.c(197,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\bevel_emboss.c(666,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>bitmap.c
+8>blend.c
+6>tif_predict.c
+6>tif_pixarlog.c
+6>tif_packbits.c
+9>libmng_chunk_descr.c
+7>zutil.c
+7>正在生成代码...
+4>正在生成代码...
+5>已完成生成项目“libdcr.vcxproj”的操作。
+1>ximawmf.cpp
+8>boundary.c
+8>brightness_contrast.c
+6>tif_open.c
+6>tif_ojpeg.c
+9>libmng_callback_xs.c
+10>png.c
+4>正在编译...
+4>Jdatadst.c
+7>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\zlib\zlib.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\zlib.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\brightness_contrast.c(49,8): warning C4013: “memset”未定义；假设外部返回 int
+8>channel_image.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_image.c(705,10): warning C4013: “memcpy”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_image.c(897,14): warning C4013: “memset”未定义；假设外部返回 int
+8>channel_mixer.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\channel_mixer.c(51,8): warning C4013: “memset”未定义；假设外部返回 int
+8>color.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color.c(299,9): warning C4013: “memcpy”未定义；假设外部返回 int
+8>color_balance.c
+6>tif_next.c
+6>tif_lzw.c
+9>正在生成代码...
+4>Jdatasrc.c
+4>Jdcoefct.c
+7>zlib.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\zlib\zlib.lib
+2>pnm_cod.c
+6>tif_luv.c
+6>tif_jpeg.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_balance.c(65,8): warning C4013: “memset”未定义；假设外部返回 int
+8>color_mode.c
+8>color_overlay.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\color_overlay.c(198,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>curves.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\curves.c(67,8): warning C4013: “memset”未定义；假设外部返回 int
+8>descriptor.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\descriptor.c(787,12): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\descriptor.c(919,11): warning C4013: “memset”未定义；假设外部返回 int
+8>drop_shadow.c
+7>已完成生成项目“zlib.vcxproj”的操作。
+4>Jdcolor.c
+4>Jddctmgr.c
+6>tif_getimage.c
+6>正在生成代码...
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\drop_shadow.c(166,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\drop_shadow.c(386,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>effects.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(82,8): warning C4013: “memset”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(217,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\effects.c(395,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>file_header.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\file_header.c(56,12): warning C4013: “memcmp”未定义；假设外部返回 int
+8>fixed.c
+8>gaussian_blur.c
+4>Jdhuff.c
+4>Jdinput.c
+9>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\mng\mng.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\mng.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+8>gradient_blend.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_blend.c(362,10): warning C4013: “memcpy”未定义；假设外部返回 int
+8>正在生成代码...
+10>pngerror.c
+4>Jdmainct.c
+4>Jdmarker.c
+4>Jdmaster.c
+6>正在编译...
+6>tif_flush.c
+9>mng.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\mng\mng.lib
+4>Jdmerge.c
+4>Jdpostct.c
+8>正在编译...
+8>gradient_fill.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_fill.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+8>gradient_map.c
+2>pgx_enc.c
+6>tif_fax3sm.c
+9>已完成生成项目“mng.vcxproj”的操作。
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_map.c(53,8): warning C4013: “memset”未定义；假设外部返回 int
+8>gradient_overlay.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\gradient_overlay.c(307,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>hue_saturation.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\hue_saturation.c(51,8): warning C4013: “memset”未定义；假设外部返回 int
+8>image_data.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_data.c(598,14): warning C4013: “memcpy”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_data.c(610,14): warning C4013: “memset”未定义；假设外部返回 int
+8>image_resource.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(164,14): warning C4013: “memset”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(170,14): warning C4013: “memcpy”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\image_resource.c(58,13): warning C4101: “status”: 未引用的局部变量
+8>inner_glow.c
+4>Jdsample.c
+4>Jdtrans.c
+6>tif_fax3.c
+6>tif_error.c
+6>tif_dumpmode.c
+6>tif_dirwrite.c
+4>Jerror.c
+4>Jfdctflt.c
+4>Jfdctfst.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\inner_glow.c(381,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>inner_shadow.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\inner_shadow.c(341,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>invert.c
+8>layer_mask.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\layer_mask.c(80,8): warning C4013: “memset”未定义；假设外部返回 int
+8>levels.c
+10>pngget.c
+1>ximawbmp.cpp
+4>Jfdctint.c
+6>tif_dirread.c
+6>tif_dirinfo.c
+6>F:\work\git\rxskin\lib3rd\cximage\src\tiff\tif_dirinfo.c(795,40): warning C4996: '_lfind': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lfind. See online help for details.
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\levels.c(54,8): warning C4013: “memset”未定义；假设外部返回 int
+8>outer_glow.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\outer_glow.c(340,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>path.c
+8>pattern.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern.c(530,8): warning C4013: “memset”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern.c(740,12): warning C4013: “memcpy”未定义；假设外部返回 int
+2>pgx_dec.c
+8>pattern_fill.c
+4>Jidctflt.c
+6>tif_dir.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_fill.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+4>Jidctfst.c
+6>tif_compress.c
+8>pattern_overlay.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_overlay.c(88,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\pattern_overlay.c(208,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>photo_filter.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\photo_filter.c(43,8): warning C4013: “memset”未定义；假设外部返回 int
+2>pgx_cod.c
+6>tif_color.c
+4>正在生成代码...
+10>pngmem.c
+8>posterize.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\posterize.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+8>psd.c
+1>ximatran.cpp
+6>tif_codec.c
+6>tif_close.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\psd.c(68,8): warning C4013: “memset”未定义；假设外部返回 int
+8>psd_system.c
+8>正在生成代码...
+4>正在编译...
+4>Jidctint.c
+6>tif_aux.c
+6>正在生成代码...
+8>正在编译...
+8>psd_zip.c
+8>rect.c
+4>Jmemmgr.c
+4>Jmemnobs.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\rect.c(111,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>satin.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\satin.c(342,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>selective_color.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\selective_color.c(50,8): warning C4013: “memset”未定义；假设外部返回 int
+8>solid_color.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\solid_color.c(46,8): warning C4013: “memset”未定义；假设外部返回 int
+8>stream.c
+2>mif_cod.c
+4>Jquant1.c
+4>Jquant2.c
+10>pngpread.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stream.c(128,10): warning C4101: “left”: 未引用的局部变量
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stream.c(206,10): warning C4101: “left”: 未引用的局部变量
+8>stroke.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stroke.c(104,14): warning C4013: “strcmp”未定义；假设外部返回 int
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\stroke.c(401,8): warning C4013: “memcpy”未定义；假设外部返回 int
+8>test.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\test.c(47,10): warning C4013: “psd_free”未定义；假设外部返回 int
+8>threshold.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\threshold.c(47,8): warning C4013: “memset”未定义；假设外部返回 int
+8>thumbnail.c
+4>Jutils.c
+4>正在生成代码...
+6>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\tiff\tiff.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\tiff.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+8>type_tool.c
+8>F:\work\git\rxskin\lib3rd\cximage\src\libpsd\type_tool.c(43,8): warning C4013: “memset”未定义；假设外部返回 int
+8>正在生成代码...
+4>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jpeg\jpeg.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\jpeg.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+6>Tiff.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\tiff\tiff.lib
+2>jpg_val.c
+6>已完成生成项目“Tiff.vcxproj”的操作。
+10>pngread.c
+4>Jpeg.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jpeg\jpeg.lib
+8>libpsd.cpp
+4>已完成生成项目“Jpeg.vcxproj”的操作。
+1>ximatif.cpp
+8>pch.cpp
+8>正在生成代码...
+8>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libpsd\libpsd.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\libpsd.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>jpg_dummy.c
+10>pngrio.c
+8>libpsd.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\libpsd\libpsd.lib
+8>已完成生成项目“libpsd.vcxproj”的操作。
+2>jpc_util.c
+10>pngrtran.c
+1>ximath.cpp
+2>jpc_tsfb.c
+10>pngrutil.c
+2>jpc_tagtree.c
+10>pngset.c
+2>jpc_t2enc.c
+1>ximatga.cpp
+10>pngtrans.c
+2>jpc_t2dec.c
+10>pngwio.c
+2>jpc_t2cod.c
+1>ximaska.cpp
+10>pngwrite.c
+2>jpc_t1enc.c
+10>pngwtran.c
+2>jpc_t1dec.c
+1>ximasel.cpp
+10>pngwutil.c
+2>正在生成代码...
+2>正在编译...
+2>jpc_t1cod.c
+10>正在生成代码...
+2>jpc_qmfb.c
+1>ximaraw.cpp
+10>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\png\png.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\png.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+10>png.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\png\png.lib
+2>jpc_mqenc.c
+10>已完成生成项目“png.vcxproj”的操作。
+2>jpc_mqdec.c
+1>ximapsd.cpp
+2>jpc_mqcod.c
+2>jpc_mct.c
+2>jpc_math.c
+1>ximapng.cpp
+2>jpc_enc.c
+2>jpc_dec.c
+2>jpc_cs.c
+1>ximapcx.cpp
+2>jpc_bs.c
+2>jp2_enc.c
+1>ximapal.cpp
+2>jp2_dec.c
+2>jp2_cod.c
+1>ximalyr.cpp
+2>bmp_enc.c
+2>bmp_dec.c
+1>ximalpha.cpp
+2>bmp_cod.c
+2>jas_version.c
+2>jas_tvp.c
+2>jas_string.c
+2>正在生成代码...
+2>正在编译...
+2>jas_stream.c
+1>ximajpg.cpp
+2>jas_seq.c
+2>jas_malloc.c
+2>jas_init.c
+1>ximajbg.cpp
+2>jas_image.c
+2>jas_iccdata.c
+2>jas_icc.c
+1>ximajas.cpp
+2>jas_getopt.c
+2>jas_debug.c
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(250,16): warning C4018: “<”: 有符号/无符号不匹配
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(252,16): warning C4018: “<”: 有符号/无符号不匹配
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximajas.cpp(314,16): warning C4018: “<”: 有符号/无符号不匹配
+1>正在生成代码...
+2>jas_cm.c
+1>正在编译...
+1>ximaint.cpp
+2>正在生成代码...
+2>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jasper\jasper.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\jasper.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+2>jasper.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\jasper\jasper.lib
+2>已完成生成项目“jasper.vcxproj”的操作。
+1>ximainfo.cpp
+1>ximaico.cpp
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaico.cpp(325,30): warning C4838: 从“int32_t”转换到“uint16_t”需要收缩转换
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximaico.cpp(348,6): warning C4838: 从“int32_t”转换到“DWORD”需要收缩转换
+1>ximahist.cpp
+1>ximagif.cpp
+1>xImage.cpp
+1>ximaexif.cpp
+1>ximaenc.cpp
+1>ximadsp.cpp
+1>F:\work\git\rxskin\lib3rd\cximage\src\CxImage\ximadsp.cpp(2910,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+1>ximabmp.cpp
+1>tif_xfile.cpp
+1>正在生成代码...
+1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+1>ximamng.cpp
+1>E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\rximage\rximage.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Unicode_Debug\rximage.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+1>cximage.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\obj\Win32\Unicode_Debug\rximage\rximage.lib
+1>已完成生成项目“cximage.vcxproj”的操作。
+========== 全部重新生成: 成功 10 个，失败 0 个，跳过 0 个 ==========
+

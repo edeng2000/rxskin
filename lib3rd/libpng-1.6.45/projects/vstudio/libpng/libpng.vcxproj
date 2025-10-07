@@ -242,7 +242,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Library|x64'">
@@ -272,7 +272,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -365,7 +365,7 @@
     </Link>
     <Lib>
       <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
-      <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Library|x64'">
@@ -398,7 +398,7 @@
     </Link>
     <Lib>
       <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
-      <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>

@@ -1,4 +1,0 @@
-﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
-  libdcr.c
-E:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\work\git\rxskin\lib3rd\cximage\src\obj\libdcr\Debug\libdcr.lib) 与 Library 的 OutputFile 属性值(F:\work\git\rxskin\lib3rd\cximage\lib\Win32\Debug\libdcr.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
-  libdcr.vcxproj -> F:\work\git\rxskin\lib3rd\cximage\src\obj\libdcr\Debug\libdcr.lib
