@@ -145,7 +145,7 @@
       <ResourceOutputFileName>$(OutDir)%(Filename).res</ResourceOutputFileName>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)skia.lib</OutputFile>
+      <OutputFile>../lib/Win64/Release/skia.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
   </ItemDefinitionGroup>
@@ -212,7 +212,7 @@
       <ResourceOutputFileName>$(OutDir)%(Filename).res</ResourceOutputFileName>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)skiad.lib</OutputFile>
+      <OutputFile>../lib/Win64/Debug/skia.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
   </ItemDefinitionGroup>

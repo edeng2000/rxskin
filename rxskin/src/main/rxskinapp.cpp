@@ -55,10 +55,7 @@ int CRXSkinApp::ExitInstance()
 
 BOOL CRXSkinApp::InitInstance()
 {
-	CRXSkinService::CreateInstance();
 	CRXSkinService::Instance()->SetInstance(m_hInstance);
-
-
 	return TRUE;
 }
 

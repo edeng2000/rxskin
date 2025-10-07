@@ -272,9 +272,8 @@ protected:
 class RXSKIN_API CRXSkinFontMgr
 {
 public:
-    RX_DECLARE_SINGLETON(CRXSkinFontMgr);
-    CRXSkinFontMgr();
-    ~CRXSkinFontMgr();
+	static CRXSkinFontMgr* Instance();
+
 	BOOL         Init(const TCHAR* pszConfig);
 	BOOL         InitResource(const TCHAR* pszResource);
 	VOID         UnInit();
@@ -338,6 +337,8 @@ public:
 		const GradientItem* pGradients,
 		int nCount, BYTE byAlpha);
 private:
+	CRXSkinFontMgr();
+	~CRXSkinFontMgr();
     bool         AddFontTypeface(const SkTypeface* spTypeface);
 	VOID        _ReadConfig(tinyxml2::XMLDocument* poDoc, const EResourceType& enFromResource = RESOURCE_FROM_FILE, HMODULE hModel = NULL);
 private:

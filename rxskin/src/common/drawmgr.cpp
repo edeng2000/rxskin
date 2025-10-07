@@ -443,8 +443,6 @@ BOOL  CDrawMgr::InitResource(const TCHAR* pszResource)
 
 	m_hNESW = ::LoadCursor(NULL, IDC_SIZENESW);
 	m_hNWSE = ::LoadCursor(NULL, IDC_SIZENWSE);
-	if (NULL == CRXSkinFontMgr::Instance())
-		CRXSkinFontMgr::CreateInstance();
 	_InitLayeredWindows();
 	tinyxml2::XMLDocument* poDoc = CRXSkinResourceMgr::Instance()->GetXml(pszResource);
 	if (poDoc)

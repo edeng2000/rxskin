@@ -15,14 +15,20 @@ class CRXSkinWnd;
 class RXSKIN_API CRXSkinService
 {
 public:
+
+	CRXSkinService(void);
+	~CRXSkinService(void);
+	CRXSkinService(const CRXSkinService&) = delete; // ½ûÖ¹¿½±´¹¹Ôìº¯Êý
+	CRXSkinService& operator=(const CRXSkinService&) = delete; // ½ûÖ¹¸³Öµ²Ù×÷·û
+
+
 	typedef unordered_map<HWND,CRXSkinWnd*>        CRXSkinWndMap;
 	typedef CRXSkinWndMap::iterator      CRXSkinWndMapItr;
-	RX_DECLARE_SINGLETON(CRXSkinService);
+	static CRXSkinService* Instance();
 
 	HINSTANCE GetInstance();
 	VOID      SetInstance(HINSTANCE hInstance);
-	CRXSkinService(void);
-	~CRXSkinService(void);
+
 	BOOL   Init(const TCHAR* pszConfigFile);
 	BOOL   InitResource(const TCHAR* pszResource);
 	VOID   UnInit();
@@ -49,7 +55,10 @@ public:
 
 	bool    IsFromZipResource() { return m_enResourceModel == RESOURCE_FROM_ZIP; }
 	bool    IsFromFileResource() { return m_enResourceModel == RESOURCE_FROM_FILE; }
-	void    SetResourceModel(const EResourceType& enModel) { m_enResourceModel = enModel; }
+	void    SetResourceModel(const EResourceType& enModel) 
+	{
+		m_enResourceModel = enModel; 
+	}
 
 	void    SetResourceRootPath(const TCHAR* pszPath) { m_strResourceRootPath = pszPath; }
 
@@ -69,5 +78,4 @@ private:
 	tstring           m_strResourceRootPath;
 private:
 	VOID              _DeleteAllWnd();
-
 };

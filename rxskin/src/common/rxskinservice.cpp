@@ -8,8 +8,7 @@
 #include <Windows.h>
 #include <Windowsx.h>
 #include <ObjBase.h>
-
-RX_IMPLEMENT_SINGLETON(CRXSkinService);
+CRXSkinService* g_poInstance = NULL;
 CRXSkinService::CRXSkinService(void)
 {
 	m_hInstance = NULL;
@@ -22,6 +21,15 @@ CRXSkinService::~CRXSkinService(void)
 {
 }
 
+CRXSkinService* CRXSkinService::Instance()
+{
+	if (g_poInstance==NULL)
+	{
+		g_poInstance = new CRXSkinService;
+	}
+	return g_poInstance;
+}
+
 void CRXSkinService::SetModelWnd(CRXSkinWnd* poWnd)
 {
 	m_poModelWnd = poWnd;
@@ -32,10 +40,6 @@ BOOL CRXSkinService::Init(const TCHAR* pszConfigFile)
 {
 	if(NULL == CRXImageModule::Instance())
 		CRXImageModule::CreateInstance();
-	if(NULL == CRXSkinResourceMgr::Instance())
-		CRXSkinResourceMgr::CreateInstance();
-	if (NULL == CRXSkinFontMgr::Instance())
-		CRXSkinFontMgr::CreateInstance();
 	CRXSkinFontMgr::Instance()->Init(pszConfigFile);
 	if (FALSE == m_oDrawMgr.Init(pszConfigFile))
 	{
@@ -49,7 +53,6 @@ BOOL CRXSkinService::Init(const TCHAR* pszConfigFile)
 BOOL CRXSkinService::InitResource(const TCHAR* pszResource)
 {
 	CRXImageModule::CreateInstance();
-	CRXSkinResourceMgr::CreateInstance();
 	if (FALSE == m_oDrawMgr.InitResource(pszResource))
 	{
 		return FALSE;

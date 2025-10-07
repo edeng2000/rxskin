@@ -8,7 +8,7 @@
 #include <ObjBase.h>
 #include "rxfile.h"
 #include "rxdir.h"
-RX_IMPLEMENT_SINGLETON(CRXSkinResourceMgr);
+CRXSkinResourceMgr* g_poResourceInstance = NULL;
 CRXSkinResourceMgr::CRXSkinResourceMgr(void)
 {
 	/*m_poUnzip = NULL;*/
@@ -17,6 +17,16 @@ CRXSkinResourceMgr::CRXSkinResourceMgr(void)
 CRXSkinResourceMgr::~CRXSkinResourceMgr(void)
 {
 }
+
+CRXSkinResourceMgr* CRXSkinResourceMgr::Instance()
+{
+	if (g_poResourceInstance == NULL)
+	{
+		g_poResourceInstance = new CRXSkinResourceMgr;
+	}
+	return g_poResourceInstance;
+}
+
 
 tinyxml2::XMLDocument* CRXSkinResourceMgr::GetXml(const TCHAR* pszResoureName)
 {

@@ -27,20 +27,20 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -48,7 +48,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -72,22 +72,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
+    <OutDir>..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
+    <OutDir>..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\..\obj\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
+    <OutDir>..\obj\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
+    <OutDir>..\obj\\$(Configuration)\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -96,31 +96,32 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;RXSKIN_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WIN64;WIN32;CXIMAGE_USE_LIBPSD;_RXIMAGE_DLL_;USE_FREEIMAGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;RXSKIN_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WIN64;WIN32;CXIMAGE_USE_LIBPSD;_RXIMAGE_DLL_;USE_CXIMAGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/tinyxml/;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/SDL-release-2.30.6/include;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/freeimage/include;../../../lib3rd/stb</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>./;./include;../lib3rd/cximage/include;../include/fundation;../lib3rd/giflib-5.2.2/include;../lib3rd/stb;../lib3rd/zlib/include;../lib3rd/skia/include;../lib3rd/skia;../lib3rd/json;../lib3rd/skia/include/core;../include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <ImportLibrary>..\..\..\lib\Debug\$(TargetName).lib</ImportLibrary>
-      <OutputFile>..\..\..\bin\$(ProjectName)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>../../../lib3rd/cximage/lib/Unicode_Debug;..\..\..\lib\Debug;../../../lib3rd/scintilla/bin/Debug;../../../lib3rd/FreeImage/lib/Debug;../../../lib3rd\SDL-release-2.30.6\lib/Debug;../../../lib3rd/giflib-5.2.2/lib/debug;../../../lib3rd/freeimage/lib/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;SDL2d.lib;Freeimaged.lib;FreeImagePlusd.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/x64/Unicode_Debug;..\lib\x64\Debug;../lib3rd/scintilla/bin/Debug;../lib3rd/giflib-5.2.2/lib/debug;../lib3rd/skia/lib/Win64/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;Msimg32.lib;skia.lib;Opengl32.lib;Usp10.lib;gdiplus.lib;LIBCMTd.LIB;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /e /r /y "..\..\..\bin\rxskin\Debug\*.dll" "..\..\..\bin\rxremote\$(Configuration)"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Unicode_Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\lib3rd\cximage\lib\Unicode_Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>
-      <OutputFile>..\..\..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -129,10 +130,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;RXSKIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/stb;../../../lib3rd/zlib/include;../../../lib3rd/skia/include;../../../lib3rd/skia;../../../lib3rd/json;../../../lib3rd/skia/include/core;../../../lib3rd/freeimage/include;..\..\..\lib3rd\sgdp\include\gnu</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;./include;../lib3rd/cximage/include;../include/fundation;../lib3rd/giflib-5.2.2/include;../lib3rd/stb;../lib3rd/zlib/include;../lib3rd/skia/include;../lib3rd/skia;../lib3rd/json;../lib3rd/skia/include/core;../include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -142,14 +143,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
-      <OutputFile>..\..\..\bin\$(ProjectName)\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>../../../lib3rd/cximage/lib/win32/Unicode_Debug;..\..\..\lib\win32\Debug;../../../lib3rd/FreeImage/lib/Debug;../../../lib3rd/giflib-5.2.2/lib/win32/debug;../../..\lib3rd\libiconv\lib\win32\debug;..\..\..\lib3rd\cximage\src\lib\Win32\Unicode_Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;Msimg32.lib;libiconv.lib;GifLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <ImportLibrary>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/win32/Unicode_Debug;..\lib\win32\Debug;../lib3rd/giflib-5.2.2/lib/win32/debug;../lib3rd\libiconv\lib\win32\debug;..\lib3rd\cximage\src\lib\Win32\Unicode_Debug;../lib3rd/skia/lib/Win32/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;skia.lib;gdiplus.lib;Msimg32.lib;Opengl32.lib;Usp10.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
     </Link>
     <Lib>
-      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Win32\Unicode_Debug;..\..\..\lib3rd\zipper\lib\Debug;..\..\..\lib3rd\skia\lib\Win32\Debug</AdditionalLibraryDirectories>
+      <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\lib3rd\cximage\lib\Win32\Unicode_Debug;..\lib3rd\zipper\lib\Debug;..\lib3rd\skia\lib\Win32\Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;skia.lib;Usp10.lib</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
@@ -161,10 +162,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;RXSKIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/freeimage/include;../../../lib3rd/stb;../../../lib3rd/zlib/include;../../../lib3rd/skia/include;../../../lib3rd/skia;../../../lib3rd/json;../../../lib3rd/skia/include/core;..\..\..\lib3rd\sgdp\include\gnu</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;./include;../lib3rd/cximage/include;../include/fundation;../lib3rd/giflib-5.2.2/include;../lib3rd/stb;../lib3rd/zlib/include;../lib3rd/skia/include;../lib3rd/skia;../lib3rd/json;../lib3rd/skia/include/core;../include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -175,10 +176,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;skia.lib;gdiplus.lib;zlibstat.lib;Msimg32.lib;Opengl32.lib;Usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/win32/Unicode_Release;..\lib\Win32\Release;../lib3rd/giflib-5.2.2/lib/Win32/Release;../lib3rd/skia/lib/Win32/Release;../lib3rd/zlib/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
     </Link>
     <Lib>
-      <OutputFile>..\..\..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Win32\Unicode_Release;..\..\..\lib3rd\skia\lib\Win32\Release</AdditionalLibraryDirectories>
+      <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\lib3rd\cximage\lib\Win32\Unicode_Release;..\lib3rd\skia\lib\Win32\Release</AdditionalLibraryDirectories>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;skia.lib;Usp10.lib</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
@@ -190,11 +195,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;RXSKIN_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WIN64;WIN32;CXIMAGE_USE_LIBPSD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;WIN32;USE_CXIMAGE;_CRT_NON_CONFORMING_SWPRINTFS;NOMINMAX;RXSKIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>./;./include;../../../lib3rd/tinyxml/;../../../lib3rd/cximage/include;../rxfundation/include/fundation;../rxfundation/include/;../../../lib3rd/SDL-release-2.30.6/include;../../../lib3rd/giflib-5.2.2/include;../../../lib3rd/freeimage/include;../../../stb</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>./;./include;../lib3rd/cximage/include;../include/fundation;../lib3rd/giflib-5.2.2/include;../lib3rd/stb;../lib3rd/zlib/include;../lib3rd/skia/include;../lib3rd/skia;../lib3rd/json;../lib3rd/skia/include/core;../include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -202,20 +208,20 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <OutputFile>..\..\..\bin\$(ProjectName)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
-      <ImportLibrary>..\..\..\lib\Release\$(TargetName).lib</ImportLibrary>
+      <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>../../../lib3rd/cximage/lib/Unicode_Release;..\..\..\lib\Release;../../../lib3rd/SDL-release-2.30.6/lib/Release;../../../lib3rd/giflib-5.2.2/lib/Release;../../../lib3rd/freeimage/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;SDL2.lib;FreeImage.lib;FreeImagePlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/x64/Unicode_Release;..\lib\x64\Release;../lib3rd/giflib-5.2.2/lib/Release;../lib3rd/skia/lib/Win64/Release;../lib3rd/zlib/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;skia.lib;gdiplus.lib;zlibstat.lib;Msimg32.lib;Opengl32.lib;Usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>
       </Command>
     </PostBuildEvent>
     <Lib>
-      <OutputFile>..\..\..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalDependencies>cximage.lib;jasper.lib;jbig.lib;jpeg.lib;libdcr.lib;libpsd.lib;tiff.lib;zlib.lib;mng.lib;png.lib;Vfw32.lib;Winmm.lib;strmiids.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\..\lib3rd\cximage\lib\Unicode_Release</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\lib3rd\cximage\lib\Unicode_Release</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -284,6 +290,12 @@
     <ClInclude Include="rxskinres.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\lib3rd\json\json\cJSON.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -306,10 +318,14 @@
     <ClCompile Include="src\common\imagemgr.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src\common\rximagemodel.cpp" />
+    <ClCompile Include="src\common\rximagemodel.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="src\common\rxskinfont.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="src\common\rxskinimagelist.cpp" />
     <ClCompile Include="src\common\rxskinmemdc.cpp">
@@ -320,11 +336,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="src\common\rxskinutil.cpp" />
-    <ClCompile Include="src\common\TxDIB.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="src\controls\rxcontrol.cpp" />
     <ClCompile Include="src\controls\rxskinbrowser.cpp" />
     <ClCompile Include="src\controls\rxskinchild.cpp" />
@@ -372,6 +383,8 @@
     <ClCompile Include="src\skia\drawtext-skia.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

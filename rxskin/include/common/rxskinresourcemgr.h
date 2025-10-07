@@ -16,9 +16,7 @@ using namespace std;
 class RXSKIN_API CRXSkinResourceMgr
 {
 public:
-	CRXSkinResourceMgr();
-	~CRXSkinResourceMgr();
-	RX_DECLARE_SINGLETON(CRXSkinResourceMgr);
+	static CRXSkinResourceMgr* Instance();
 
 	tinyxml2::XMLDocument* GetXml(const TCHAR* pszResoureName);
 	BYTE* GetRTF(const TCHAR* pszResoureName,uint32_t&dwLen);
@@ -37,4 +35,8 @@ private:
 //	zipper::Unzipper* m_poUnzip;
 //	std::vector<zipper::ZipEntry>  m_vecItems;
 	CZipArchive  m_oZip;
+
+private:
+	CRXSkinResourceMgr();
+	~CRXSkinResourceMgr();
 };

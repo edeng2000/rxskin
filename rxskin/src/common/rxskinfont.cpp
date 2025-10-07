@@ -84,8 +84,7 @@ bool CRXSkinFont::IsStrikeOut() const
 {
 	return m_lf.lfStrikeOut;
 }
-
-RX_IMPLEMENT_SINGLETON(CRXSkinFontMgr)
+CRXSkinFontMgr* g_poFontMgr = NULL;
 CRXSkinFontMgr::CRXSkinFontMgr()
 {
 	//m_pSkFontMgr = SkFontMgr_New_DirectWrite();	
@@ -94,6 +93,15 @@ CRXSkinFontMgr::CRXSkinFontMgr()
 CRXSkinFontMgr::~CRXSkinFontMgr()
 {
 	UnInit();
+}
+
+CRXSkinFontMgr* CRXSkinFontMgr::Instance()
+{
+	if (g_poFontMgr == NULL)
+	{
+		g_poFontMgr = new CRXSkinFontMgr;
+	}
+	return g_poFontMgr;
 }
 
 BOOL CRXSkinFontMgr::Init(const TCHAR* pszConfig)

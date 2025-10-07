@@ -24,6 +24,9 @@
     <Filter Include="skia">
       <UniqueIdentifier>{cad6f479-59dc-4cb5-9fb0-20adfe19b9e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{7867ec5a-3f40-4f00-a56c-e77dd4e3faaf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -364,9 +367,6 @@
     <ClCompile Include="src\controls\rxskinsearch.cpp">
       <Filter>controls</Filter>
     </ClCompile>
-    <ClCompile Include="src\common\TxDIB.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
     <ClCompile Include="src\common\rxskinresourcemgr.cpp">
       <Filter>common</Filter>
     </ClCompile>
@@ -387,6 +387,9 @@
     </ClCompile>
     <ClCompile Include="src\skia\drawtext-skia.cpp">
       <Filter>skia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib3rd\json\json\cJSON.c">
+      <Filter>json</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
