@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="230,360" area="RECT(100,20,480,260)" 
+		resize="false" child="RECT(170,40,540,370)" >
+	<content offsetx="10" offsettop = "5" offsetbottom="10"/>
+	<Borders need="true" round="6,6">
+		<Top src="skins/top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="skins/bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="skins/left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="skins/right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" 
+				downsrc="skins/common/btn_close_down.png" OffSetX="8"
+				OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="skins/main_title.png" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="连接设备" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(15,45,383,132)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" round="6,6"/>
+	</Background>
+	<Controls>
+	
+	<Control id="94100"
+			type="RXSkinStatic"
+			text="设备名："
+			tooltip=""
+			area="RECT(20,50,129,70)"
+			aligntopleft="TOP_LEFT"
+			alignbottomright="TOP_LEFT"/>	
+	<Control id="94101"
+				type="RXSkinEdit" 
+				text=""
+				tooltip="" 
+				style="0" 
+				area="RECT(110,48,335,73)" 
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT"
+				bkcolor="RGB(201,212,215)"
+				textcolor="RGB(121,140,245)"
+				bordercolor="RGB(212,200,230)"
+				normalborder="RGB(100, 180, 110)"
+				hotborder="RGB(100, 180, 110)" 
+				ispassword="FALSE" 
+				readonly="true"
+				FontName="仿宋" 
+				FontSize="14" 
+				IsBold="TRUE"/>
+				
+				
+	<Control id="94001"
+				type="RXSkinEdit" 
+				text=""
+				tooltip="" 
+				style="0" 
+				area="RECT(15,115,185,145)" 
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT"
+				bkcolor="RGB(201,212,215)"
+				textcolor="RGB(121,140,245)"
+				bordercolor="RGB(212,200,230)"
+				normalborder="RGB(100, 180, 110)"
+				hotborder="RGB(100, 180, 110)" 
+				ispassword="FALSE" 
+				readonly="false"
+				FontName="仿宋" 
+				FontSize="20" 
+				IsBold="TRUE"/>
+
+		<Control id="94002" type="RXSkinEdit" text="" tooltip=""
+				style="0" area="RECT(235,115,350,145)"
+				aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+				bordercolor="RGB(212,200,230)" 
+				normalborder="RGB(0,0,0)"
+				hotborder="RGB(0, 0, 0)"
+				ispassword="FALSE" 	readonly="false"
+				FontName="仿宋"
+				FontSize="20"
+				IsBold="TRUE"/>
+		
+		<Control id="94003" type="RXSkinStatic" text="设备代码：" tooltip="" area="RECT(20,90,129,110)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="94004" type="RXSkinStatic" text="设备密码：" tooltip="" area="RECT(240,90,335,110)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+
+		<Control id="94009"
+				type="RXSkinRadioList" 
+				text="" 
+				tooltip="" 
+				area="RECT(20,255,0,0)" 
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT">
+			<Item id="940091" text="远程桌面" tooltip="" area="RECT(70,160,160,180)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+			<Item id="940092" text="文件传输" tooltip="" area="RECT(170,160,340,180)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		</Control>		
+		<Control id="54009" type="RXSkinTxtButton" text="连接(&O)" tooltip="" area="RECT(160,200,225,225)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		
+	</Controls>
+</Window>

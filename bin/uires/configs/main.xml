@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="487,380" area="RECT(100,20,587,400)" resize="true">
+	<Borders need="true" round="6,6">
+		<Top src="\..\skins\top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="\..\skins\bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="\..\skins\left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="\..\skins\right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">		
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" 
+				downsrc="skins/common/btn_close_down.png" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="155" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="RX' Remote" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+		<Min normalsrc="skins/common/btn_minimize.png" hotsrc="skins/common/btn_minimize_hover.png" downsrc="skins/common/btn_minimize_down.png" OffSetX="48" OffSetY="6" width="26" height="28" tooltip="最小化" text=""/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,45)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,135,100,346)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(2,445,548,470)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" />
+		<Work area="RECT(110,53,7,30)" round="10,10" bkcolor="RGB(201,232,235)" bordercolor="RGB(0,212,215)"/>
+	</Background>
+	<Childs>
+		<Self area="RECT(10,50,220,260)"/>
+		<Remote area="370,530"/>
+		<Desktop area="520,400"/>		
+	</Childs>
+	<Controls>
+		<Control id="23001" 
+				type="RXSkinStaticImage" 
+				text="" 
+				tooltip=""
+				src="skins/install_bk.png"
+				area="RECT(5,35,477,300)" 
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT"/>
+		<Control id="23002" 
+				type="RXSkinImageButton"
+				text="安装"
+				normalsrc="skins/software_installer.png"
+				hotsrc="skins/software_installer.png" 
+				downsrc="skins/software_installer.png" 
+				tooltip="安装" 
+				area="RECT(400,330,470,355)"
+				aligntopleft="TOP_LEFT"
+				normalbk="RGB(191, 222, 225)"
+				alignbottomright="TOP_LEFT"
+				bkcolor="RGB(201,212,215)" 
+				textcolor="RGB(21,42,45)"
+				bordercolor="RGB(0,212,215)"/>
+		<Control id="23003" type="RXSkinStatic"
+				text="安装位置：" 
+				tooltip=""
+				area="RECT(15,335,190,355)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>
+		<Control id="23004" type="RXSkinBrownser" text=""  tipvalue="请输入安装路径" tooltip="" 
+				area="RECT(85,330,390,355)"
+				aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" tipbgcolor="RGB(201,212,215)" tiptextcolor="RGB{0,0,0}"  bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+				bordercolor="RGB(200,212,215)"/>
+		<Control id="23005"
+				type="RXSkinCheckbox" 
+				text="同意协议" 
+				tooltip=""
+				area="RECT(260,300,350,320)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>	
+		<Control id="23006"
+				type="RXSkinHyperLink" 
+				text="查看协议" 
+				tooltip=""
+				area="RECT(360,300,410,320)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>	
+		<Control id="23007" type="RXSkinStatic"
+				text="" 
+				tooltip=""
+				area="RECT(15,300,390,325)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>
+		<Control id="23008" type="RXSkinStatic"
+				text="" 
+				tooltip=""
+				area="RECT(15,300,390,325)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>
+				
+		<Control id="23009" type="RXSkinProgress"
+				text="" 
+				tooltip=""
+				area="RECT(15,330,390,355)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>
+		<Control id="23010"
+				type="RXSkinHyperLink" 
+				text="帮助手册" 
+				tooltip=""
+				area="RECT(420,300,480,320)"
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT"/>	
+	</Controls>
+	
+</Window>

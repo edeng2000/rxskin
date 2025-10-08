@@ -6,32 +6,20 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng\libpng.vcx
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug Library|Win32 = Debug Library|Win32
-		Debug Library|x64 = Debug Library|x64
-		Debug|Win32 = Debug|Win32
-		Debug|x64 = Debug|x64
-		Release Library|Win32 = Release Library|Win32
-		Release Library|x64 = Release Library|x64
-		Release|Win32 = Release|Win32
-		Release|x64 = Release|x64
+		DebugLibrary|Win32 = DebugLibrary|Win32
+		DebugLibrary|x64 = DebugLibrary|x64
+		ReleaseLibrary|Win32 = ReleaseLibrary|Win32
+		ReleaseLibrary|x64 = ReleaseLibrary|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug Library|Win32.ActiveCfg = Debug Library|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug Library|Win32.Build.0 = Debug Library|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug Library|x64.ActiveCfg = Debug Library|x64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug Library|x64.Build.0 = Debug Library|x64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug|Win32.Build.0 = Debug|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug|x64.ActiveCfg = Debug|ARM64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Debug|x64.Build.0 = Debug|ARM64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release Library|Win32.ActiveCfg = Release Library|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release Library|Win32.Build.0 = Release Library|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release Library|x64.ActiveCfg = Release Library|x64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release Library|x64.Build.0 = Release Library|x64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release|Win32.ActiveCfg = Release|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release|Win32.Build.0 = Release|Win32
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release|x64.ActiveCfg = Release|ARM64
-		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.Release|x64.Build.0 = Release|ARM64
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.DebugLibrary|Win32.ActiveCfg = DebugLibrary|Win32
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.DebugLibrary|Win32.Build.0 = DebugLibrary|Win32
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.DebugLibrary|x64.ActiveCfg = DebugLibrary|x64
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.DebugLibrary|x64.Build.0 = DebugLibrary|x64
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.ReleaseLibrary|Win32.ActiveCfg = ReleaseLibrary|Win32
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.ReleaseLibrary|Win32.Build.0 = ReleaseLibrary|Win32
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.ReleaseLibrary|x64.ActiveCfg = ReleaseLibrary|x64
+		{D6973076-9317-4EF2-A0B8-B7A18AC0713E}.ReleaseLibrary|x64.Build.0 = ReleaseLibrary|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

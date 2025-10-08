@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug|x64">
-      <Configuration>Debug</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
-      <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Unicode_Debug|Win32">
       <Configuration>Unicode_Debug</Configuration>
       <Platform>Win32</Platform>
@@ -164,7 +148,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode_Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\jpeg;..\..\libpng-1.6.45;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\ImageMagick\include;..\..\..\FreeImage\include;..\..\..\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\jpeg;..\..\..\libpng-1.6.45;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_LIB;JAS_WIN_MSVC_BUILD;WIN32;_DEBUG;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -186,7 +170,7 @@
       <OutputFile>..\..\lib\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalDependencies>zlib.lib;tiff.lib;mng.lib;jasper.lib;jbig.lib;jpeg.lib;libdcr.lib;libpsd.lib;libpng16.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\$(Platform)\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\libpng-1.6.45\lib\$(Platform)\DebugLibrary;..\..\lib\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
     </Lib>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -237,7 +221,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\jpeg;..\..\libpng-1.6.45;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\ImageMagick\include;..\..\..\FreeImage\include;..\..\..\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\jpeg;..\..\..\libpng-1.6.45;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_LIB;JAS_WIN_MSVC_BUILD;WIN32;NDEBUG;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -257,7 +241,7 @@
     <Lib>
       <OutputFile>..\..\lib\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\$(Platform)\Release</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\$(Platform)\ReleaseLibrary</AdditionalLibraryDirectories>
       <AdditionalDependencies>zlib.lib;tiff.lib;libpsd.lib;libdcr.lib;jpeg.lib;libpng16.lib;jbig.lib;jasper.lib;mng.lib</AdditionalDependencies>
     </Lib>
     <Bscmake>
@@ -307,7 +291,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\jpeg;..\png;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\ImageMagick\include;..\..\..\FreeImage\include;../../../stb/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\jpeg;..\..\..\libpng-1.6.45;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;JAS_WIN_MSVC_BUILD;WIN32;_DEBUG;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -327,7 +311,7 @@
     <Lib>
       <OutputFile>..\..\lib\$(Platform)\$(Configuration)\\$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\x64\Debug Library</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\x64\DebugLibrary</AdditionalLibraryDirectories>
       <AdditionalDependencies>zlib.lib;tiff.lib;mng.lib;jasper.lib;jbig.lib;jpeg.lib;libdcr.lib;libpsd.lib;libpng16.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <Bscmake>
@@ -397,7 +381,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\jpeg;..\png;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\ImageMagick\include;..\..\..\FreeImage\include;../../../stb/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\jpeg;..\..\..\libpng-1.6.45;..\zlib;..\mng;..\tiff;..\j2k;..\jasper\include;..\..\include;..\..\..\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;JAS_WIN_MSVC_BUILD;WIN32;NDEBUG;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -416,7 +400,7 @@
     <Lib>
       <OutputFile>..\..\lib\$(Platform)\$(Configuration)\\$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\x64\Release Library</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(Configuration);..\..\..\libpng-1.6.45\lib\x64\ReleaseLibrary</AdditionalLibraryDirectories>
       <AdditionalDependencies>zlib.lib;tiff.lib;libpsd.lib;libdcr.lib;jpeg.lib;libpng16.lib;jbig.lib;jasper.lib;mng.lib</AdditionalDependencies>
     </Lib>
     <Bscmake>

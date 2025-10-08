@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="250,360" area="RECT(100,20,500,245)" resize="false">
+	<content offsetx="10" offsettop = "5" offsetbottom="10"/>
+	<Borders need="true" round="6,6">
+		<Top src="skins/top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="skins/bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="skins/left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="skins/right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" downsrc="skins/common/btn_close_down.png" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="skins/main_title.png" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="登录" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(15,45,448,150)"
+				bk="RGB(201,232,235)"
+				textcolor="RGB(50,50,50)"
+				to="RGB(201,232,235)" 
+				border="RGB(161,202,195)" 
+				round="6,6"/>
+	</Background>
+	<Controls>
+		<Control id="44003" type="RXSkinStatic" text="账号：" tooltip="" area="RECT(25,23,70,43)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="44000" type="RXSkinComboBox" text="" tooltip="" style="0" area="RECT(65,15,315,50)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"
+		bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)" FontSize="16"  FontName="宋体"
+		normalborder="RGB(212,200,230)" hotborder="RGB(212, 180, 210)"/>
+		<Control id="44004" type="RXSkinStatic"
+				text="密码：" tooltip="" 
+				area="RECT(25,70,70,90)"
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT"/>
+		<Control id="44001" type="RXSkinEdit" text="" tooltip="" style="0" area="RECT(65,60,315,95)" 
+				aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,232,215)" textcolor="RGB(21,42,45)"
+				normalborder="RGB(212,200,230)" hotborder="RGB(212, 180, 210)" ispassword="TRUE"
+				FontSize="16"  FontName="宋体"/>
+		<Control id="44006" type="RXSkinGroupLine" text="" tooltip="" area="RECT(10,135,420,145)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>	
+		<Control id="2001" type="RXSkinTxtButton" text="登录(&O)" tooltip="" area="RECT(60,190,125,215)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="44012" type="RXSkinTxtButton" text="游客(&C)" tooltip="" area="RECT(140,190,205,215)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>		
+		<Control id="44005" type="RXSkinTxtButton" text="注册(&R)" tooltip="" area="RECT(220,190,295,215)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="44011" type="RXSkinTxtButton" text="找回密码(&F)" tooltip="" area="RECT(310,190,410,215)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="44007" type="RXSkinCheckbox" text="自动登录" tooltip="" area="RECT(100,112,200,137)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>	
+		<Control id="44008" type="RXSkinCheckbox" text="记住密码" tooltip="" area="RECT(215,112,295,137)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>	
+		<Control id="44009" type="RXSkinImageButton" text="删除账号(&D)" 
+				normalsrc="skins/delete_account.png" hotsrc="skins/delete_account.png" downsrc="skins/delete_account.png"  
+				tooltip="" area="RECT(325,60,435,85)" 
+				aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="44010" type="RXSkinImageButton" text="清除密码(&L)" 
+				normalsrc="skins/clear_password.png" hotsrc="skins/clear_password.png" downsrc="skins/clear_password.png"  
+				tooltip="" area="RECT(325,105,435,130)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+
+	</Controls>
+</Window>

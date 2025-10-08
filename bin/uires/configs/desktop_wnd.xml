@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="750,630" area="RECT(5,85,5,40)" resize="true">
+	<Background bk="RGB(201,212,215)"  border="RGB(161,202,195)" round="5,5"/>
+	<Controls>
+	</Controls>
+	
+</Window>

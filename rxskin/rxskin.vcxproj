@@ -110,7 +110,7 @@
       <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/x64/Unicode_Debug;..\lib\x64\Debug;../lib3rd/scintilla/bin/Debug;../lib3rd/giflib-5.2.2/lib/debug;../lib3rd/skia/lib/Win64/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/x64/Unicode_Debug;..\lib\x64\Debug;../lib3rd/scintilla/bin/Debug;../lib3rd/giflib-5.2.2/lib/x64/Debug;../lib3rd/skia/lib/x64/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;Msimg32.lib;skia.lib;Opengl32.lib;Usp10.lib;gdiplus.lib;LIBCMTd.LIB;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -180,6 +180,8 @@
       <AdditionalLibraryDirectories>../lib3rd/cximage/lib/win32/Unicode_Release;..\lib\Win32\Release;../lib3rd/giflib-5.2.2/lib/Win32/Release;../lib3rd/skia/lib/Win32/Release;../lib3rd/zlib/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
     <Lib>
       <OutputFile>..\lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
@@ -211,7 +213,7 @@
       <OutputFile>..\bin\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <ImportLibrary>..\lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <ModuleDefinitionFile>rxskin.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/x64/Unicode_Release;..\lib\x64\Release;../lib3rd/giflib-5.2.2/lib/Release;../lib3rd/skia/lib/Win64/Release;../lib3rd/zlib/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../lib3rd/cximage/lib/x64/Unicode_Release;..\lib\x64\Release;../lib3rd/giflib-5.2.2/lib/x64/Release;../lib3rd/skia/lib/x64/Release;../lib3rd/zlib/lib/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Ws2_32.lib;Vfw32.lib;Winmm.lib;strmiids.lib;comctl32.lib;rximage.lib;rxfundation.lib;GifLib.lib;skia.lib;gdiplus.lib;zlibstat.lib;Msimg32.lib;Opengl32.lib;Usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>

@@ -1,0 +1,14 @@
+<Config>
+    <DesktopCaptureType value="1" />
+    <VideoEncodeType value="0" />
+    <AutoRun value="true" />
+    <LocalSave value="true" />
+    <Topmost value="false" />
+    <Tray value="true" />
+    <CloseMainExit value="true" />
+    <LogicServerIP value="14.103.76.193" />
+    <LogicServerPort value="8800" />
+    <LocalSavePath value="E:\baidu\" />
+    <DownloadUrl value="AeL5MhKEbooJw8sMZjGfMrqeY0CGKUgx3I6NKzkhL2YF2QGLZlUp82a4ShArsGRBWlTdPV0RwJuNXD/7F8WGWV0Vi+Lh/xg0ITLF9HU+LZT6FOTxKfGoVNRyXvEkCXi1ofv/yPb3logLAIVHnCBiAAEuZi+D2xFDOAegjwB7qbeUKc5M43Ht+t2spJfJr4ZOFd6LTOt4Y60PtTZRFMaPmJ7/9nNi9aOnms1QED8jpBMQirLJyZ7scDzIgDfmf1HCoCqwdgK1/7o=" />
+    <UploadUrl value="AeL5MhKEbooJw8sMZjGfMrqeY0CGKUgxtEWwZRI9s0t2Q6ZwFA6DzcVvFub8VSlrEPzb7kry/VnK9/2EJ1tg8m/kPxBLxb5e295zMe0bw272E1MVfVxBr8ogaXAS6f6CrSSDve5pEiTeojNMrg50KCzspXf7TKuATBpJQ9BoTGyPxOowei8zpAkKC9Zj5GUkhZ8abOdcsOqjDSOGpsiWG+gKyU6sLHGbk0roUvQ0pekU7kZIGaMwHCwgt0PlxUlV+kLCYJRoOiBdqXp2sUVk4PvhfA8wLtkN" />
+</Config>
