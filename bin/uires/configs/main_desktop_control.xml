@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="200,360">
+	<Borders need="false" round="3,3" resize="false">
+	</Borders>
+	<Captions need="false">
+	</Captions>
+	<Controls>
+		<Control id="94001"
+				type="RXSkinEdit" 
+				text=""
+				tooltip="" 
+				style="0" 
+				area="RECT(15,95,185,125)" 
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT"
+				bkcolor="RGB(201,212,215)"
+				textcolor="RGB(121,140,245)"
+				bordercolor="RGB(212,200,230)"
+				normalborder="RGB(100, 180, 110)"
+				hotborder="RGB(100, 180, 110)" 
+				ispassword="FALSE" 
+				readonly="true"
+				FontName="仿宋" 
+				FontSize="20" 
+				IsBold="TRUE"/>
+
+		<Control id="94002" type="RXSkinEdit" text="" tooltip=""
+				style="0" area="RECT(230,95,340,125)"
+				aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+				bordercolor="RGB(212,200,230)" 
+				normalborder="RGB(0,0,0)"
+				hotborder="RGB(0, 0, 0)"
+				ispassword="FALSE" 	readonly="true"
+				FontName="仿宋"
+				FontSize="20"
+				IsBold="TRUE"/>
+		
+		<Control id="94003" type="RXSkinStatic" text="设备代码：" tooltip="" area="RECT(20,70,129,90)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="94004" type="RXSkinStatic" text="设备密码：" tooltip="" area="RECT(240,70,335,90)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="94005" type="RXSkinStatic" text="此设备：" tooltip="" area="RECT(15,25,135,55)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="94006" type="RXSkinStatic" text="远程设备：" tooltip="" area="RECT(15,165,135,195)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		
+		<Control id="94007" 
+				type="RXSkinComboBox" 
+				text=""
+				tooltip="" 
+				style="0"
+				area="RECT(15,200,200,230)"
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT" 
+				bkcolor="RGB(201,212,215)" 
+				textcolor="RGB(201,212,215)"
+				normalborder="RGB(212,200,230)"
+				hotborder="RGB(212, 180, 210)" 
+				FontName="仿宋" 
+				FontSize="14" 
+				IsBold="FALSE"/>
+		<Control id="94012" 
+				type="RXSkinEdit" 
+				text="" 
+				tooltip="" 
+				style="1"
+				area="RECT(205,200,275,230)"
+				aligntopleft="TOP_LEFT"
+				alignbottomright="TOP_LEFT" 
+				bkcolor="RGB(201,212,215)" 
+				textcolor="RGB(21,42,45)"
+				bordercolor="RGB(212,200,230)"
+				ispassword="FALSE"/>	
+		<Control id="94008" 
+			type="RXSkinImageButton" 
+			text="连接(&C)"
+			normalsrc="skins/connection.png"
+			hotsrc="skins/connection.png" 
+			downsrc="skins/connection.png"
+			tooltip="" 
+			area="RECT(285,200,375,230)"
+			aligntopleft="TOP_LEFT"
+			normalbk="RGB(191, 222, 225)"
+			alignbottomright="TOP_LEFT"/>
+		<Control id="94009"
+				type="RXSkinRadioList" 
+				text="" 
+				tooltip="" 
+				area="RECT(20,255,0,0)" 
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT">
+			<Item id="940091" text="远程桌面" tooltip="" area="RECT(20,240,110,260)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+			<Item id="940092" text="文件传输" tooltip="" area="RECT(120,240,290,260)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		</Control>		
+		
+		<Control id="94010" 
+			type="RXSkinImageButton" 
+			text=""
+			normalsrc="skins/refresh.png"
+			hotsrc="skins/refresh.png" 
+			downsrc="skins/refresh.png"
+			tooltip="刷新密钥" 
+			area="RECT(375,98,400,123)"
+			aligntopleft="TOP_LEFT"
+			normalbk="RGB(191, 222, 225)"
+			alignbottomright="TOP_LEFT"/>
+			
+		<Control id="94011" 
+			type="RXSkinImageButton" 
+			text=""
+			normalsrc="skins/copy_16px.png"
+			hotsrc="skins/copy_16px.png" 
+			downsrc="skins/copy_16px.png"
+			tooltip="复制" 
+			area="RECT(345,98,370,123)"
+			aligntopleft="TOP_LEFT"
+			normalbk="RGB(191, 222, 225)"
+			alignbottomright="TOP_LEFT"/>
+			
+		<Control id="94013" 
+			type="RXSkinImageButton" 
+			text=""
+			normalsrc="skins/copy_16px.png"
+			hotsrc="skins/copy_16px.png" 
+			downsrc="skins/copy_16px.png"
+			tooltip="复制" 
+			area="RECT(190,98,215,123)"
+			aligntopleft="TOP_LEFT"
+			normalbk="RGB(191, 222, 225)"
+			alignbottomright="TOP_LEFT"/>
+	</Controls>
+	<Background bkcolor="RGB(201,232,235)" textcolor="RGB(21,42,45)"	
+			bordercolor="RGB(0,212,215)" round = "5,5">
+	</Background>
+</Window>

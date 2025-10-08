@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="250,360" area="RECT(100,20,400,200)" resize="false">
+	<content offsetx="10" offsettop = "5" offsetbottom="10"/>
+	<Borders need="true" round="6,6">
+		<Top src="skins/top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="skins/bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="skins/left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="skins/right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" downsrc="skins/common/btn_close_down.png" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="验证码" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(2,445,548,470)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" />
+	</Background>
+	<Controls>
+		<Control id="43001" type="RXSkinStatic" text="设备码：" tooltip="" area="RECT(30,55,80,75)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="43002" type="RXSkinEdit" text="" tooltip="" style="1" area="RECT(80,50,270,75)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+			bordercolor="RGB(0,212,215)" ispassword="FALSE"/>	
+		<Control id="43003" type="RXSkinStatic" text="验证码：" tooltip="" area="RECT(30,88,80,108)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="43004" type="RXSkinEdit" text="" tooltip="" style="1" area="RECT(80,83,270,108)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+			bordercolor="RGB(0,212,215)" ispassword="FALSE"/>		
+		<Control id="2001" type="RXSkinTxtButton" text="确定(&O)" tooltip="" area="RECT(75,130,135,155)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="2002" type="RXSkinTxtButton" text="取消(&C)" tooltip="" area="RECT(165,130,225,155)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+	</Controls>
+</Window>

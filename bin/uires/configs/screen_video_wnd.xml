@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="1024,800" area="RECT(100,20,1024,800)" resize="false" child="RECT(5,35,920,775)">
+	<Borders need="true" round="6,6">
+		<Top src="skins/top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="skins/bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="skins/left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="skins/right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" downsrc="skins/common/btn_close_down.png" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Max normalsrc="skins/common/btn_maximize.png" hotsrc="skins/common/btn_maximize_hover.png" downsrc="skins/common/btn_maximize_down.png" OffSetX="40" OffSetY="6" width="26" height="28" tooltip="最大化" text=""/>
+		<Min normalsrc="skins/common/btn_minimize.png" hotsrc="skins/common/btn_minimize_hover.png" downsrc="skins/common/btn_minimize_down.png" OffSetX="78" OffSetY="6" width="26" height="28" tooltip="最小化" text=""/>
+		<Restore normalsrc="skins/common/btn_restore.png" hotsrc="skins/common/btn_restore_hover.png" downsrc="skins/common/btn_restore_down.png" OffSetX="48" OffSetY="6" width="26" height="28" tooltip="还原" text=""/>
+
+		<Title src="" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="视频" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(2,445,548,470)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" />
+	</Background>
+	<Controls>
+		<Control id="770000" type="RXSkinTabCtrl" text="" tooltip="" area="RECT(5,5,730,581)"  border="true"  aligntopleft="TOP_LEFT" alignbottomright="BOTTOM_RIGHT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)">
+		</Control>
+		<Control id="1008" type="RXSkinImageButton"
+			text="" 
+			normalsrc="skins/icon_setting_normal.png"
+			hotsrc="skins/icon_setting_hover.png"
+			downsrc="skins/icon_setting_hover.png"  
+			tooltip="选项" 
+			area="RECT(790,11,810,31)"
+			aligntopleft="TOP_RIGHT"
+			alignbottomright="TOP_RIGHT"
+			bkcolor="RGB(201,212,215)"
+			textcolor="RGB(21,42,45)"
+			bordercolor="RGB(0,212,215)"/>
+	</Controls>
+	
+</Window>

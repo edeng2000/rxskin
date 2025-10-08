@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="750,630" area="RECT(100,20,1010,660)" resize="true">
+	<Borders need="true" round="6,6">
+		<Top src="skins/top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="skins/bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="skins/left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="skins/right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" downsrc="skins/common/btn_close_down.png" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Max normalsrc="skins/common/btn_maximize.png" hotsrc="skins/common/btn_maximize_hover.png" downsrc="skins/common/btn_maximize_down.png" OffSetX="40" OffSetY="6" width="26" height="28" tooltip="最大化" text=""/>
+		<Min normalsrc="skins/common/btn_minimize.png" hotsrc="skins/common/btn_minimize_hover.png" downsrc="skins/common/btn_minimize_down.png" OffSetX="78" OffSetY="6" width="26" height="28" tooltip="最小化" text=""/>
+		<Restore normalsrc="skins/common/btn_restore.png" hotsrc="skins/common/btn_restore_hover.png" downsrc="skins/common/btn_restore_down.png" OffSetX="48" OffSetY="6" width="26" height="28" tooltip="还原" text=""/>
+
+		<Title src="skins/transfer_title.png" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="选项" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(2,445,548,470)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" />
+	</Background>
+	<Controls>
+		<Local area="RECT(20,45,450,430)"/>
+		<Remote area="RECT(460,45,890,430)"/>
+		<Control id="800000" type="RXSkinListCtrl" text="" tooltip="" area="RECT(5,465,890,640)" aligntopleft="TOP_LEFT" alignbottomright="BOTTOM_RIGHT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)">
+			<Header>
+				<Column text="名称" percent="20"/>
+				<Column text="模式" percent="10"/>
+				<Column text="大小" percent="20"/>				
+				<Column text="耗时" percent="10"/>
+				<Column text="速度" percent="10"/>
+				<Column text="进度" percent="20"/>
+				<Column text="" percent="5"/>
+				<Column text="" percent="5"/>
+			</Header>
+		</Control>
+		<Control id="800001" type="RXSkinImageButton" text="全部开始" normalsrc="skins/restartAll.png" hotsrc="skins/restartAll.png" downsrc="skins/restartAll.png"  tooltip="全部开始" area="RECT(10,435,100,459)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="800002" type="RXSkinImageButton" text="全部暂停" normalsrc="skins/pauseAll.png" hotsrc="skins/pauseAll.png" downsrc="skins/pauseAll.png"  tooltip="全部暂停" area="RECT(105,435,195,459)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="800003" type="RXSkinImageButton" text="全部取消" normalsrc="skins/cancelAll.png" hotsrc="skins/cancelAll.png" downsrc="skins/cancelAll.png"  tooltip="全部取消" area="RECT(200,435,290,459)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="800005" type="RXSkinImageButton" text="清除已完成" normalsrc="skins/task_completed.png" hotsrc="skins/task_completed.png" downsrc="skins/task_completed.png"  tooltip="清除已完成" area="RECT(295,435,395,459)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="800004" type="RXSkinCheckbox" text="传输完成后，自动删除" tooltip="" area="RECT(735,435,940,459)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>	
+	</Controls>
+	
+</Window>

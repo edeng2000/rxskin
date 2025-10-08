@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RXSkin>
+	<Fonts>
+		<Title name="幼圆" size="16" color="RGB(80,80,90)"/>
+		<Common name="华文行楷" size="14" color="RGB(50,50,50)"/>		
+		<SkiaFont>
+			<Font name="幼圆" size="16" Italic="false" Underline="false" StrikeOut="false" Bold="true" id = "1000" color="RGB(80,80,90)"/>
+			<Font name="宋体" size="14" Italic="false" Underline="false" StrikeOut="false" Bold="false" id = "1001" color="RGB(50,50,50)"/>	
+			<Font name="宋体" size="14" Italic="false" Underline="false" StrikeOut="false" Bold="true" id = "1002" color="RGB(50,50,50)"/>	
+		</SkiaFont>
+	</Fonts>
+	<Colors>
+		<Common bkcolor="RGB(156,158,172)" bordercolor="RGB(27,182,250)" disabletext="RGB(123,124,125)" normaltext="RGB(20,30,40)"/>
+		<Arrow  normalcolor="RGB(25,85,95)" mouseoncolor="RGB(92,82,100)" pressedcolor="RGB(109,102,100)"/>
+	</Colors>
+	<Sizes>
+		<Control border="3,3"/>
+		<Arrow height="8"/>
+	</Sizes>
+	<Buttons>
+		<Text bordercolor="RGB(178,178,178)" round="5,5"
+			  normalfrom="RGB(250,250,250)"
+			  normalmiddle="RGB(220,220,220)"
+			  normalto="RGB(250,250,250)"
+			  mouseonfrom="RGB(150,200,190)"
+			  mouseonmiddle="RGB(110,160,150)"
+			  mouseonto="RGB(150,200,190)"
+			  pressedfrom="RGB(200,220,210)"
+			  pressedmiddle="RGB(110,160,150)"
+			  pressedto="RGB(150,200,190)"
+			  />
+		<Common bordercolor="RGB(0,60,117)" round="3,3"
+			  normalfrom="RGB(205,223,238)"
+			  normalmiddle="RGB(220,220,220)"
+			  normalto="RGB(250,250,250)"
+			  mouseonfrom="RGB(138,177,216)"
+			  mouseonmiddle="RGB(90,157,207)"
+			  mouseonto="RGB(75,137,196)"
+			  pressedfrom="RGB(75,137,196)"
+			  pressedmiddle="RGB(90,157,207)"
+			  pressedto="RGB(138,177,216)"
+			  />
+		<HyperLink textcolor="RGB(20,50,250)"/>
+	</Buttons>
+	<DatePicker size="250,32">	
+	</DatePicker>
+	<LocationPicker size="300,32">	
+	</LocationPicker>
+	<ComboBoxs>
+		<RXSkinComboBox arrowwidth="20" arrowOffSet = "2" normalborder="RGB(212,200,230)" hotborder="RGB(212, 180, 210)"/>
+		<Popup offsetx="3" offsety="3" itemheight="16" bkcolor="RGB(250,250,250)" bordercolor="RGB(2,82,150)"/>
+		<Item mouseonbk="RGB(54,112,170)" mouseontext="RGB(254,252,250)" 
+			  pressedbk="RGB(94,162,190)" pressedtext="RGB(254,252,250)"
+			  selectedbk="RGB(94,162,190)" selectedtext="RGB(254,252,250)"
+			  normaltext="RGB(50,40,30)"/>
+	</ComboBoxs>
+	<TabCtrl round="8,8">
+		<Item height="34" 
+			  bordercolor="RGB(173,194,210)" 
+			  offsetx="8"
+			  normalbkfrom="RGB(198,216,233)" 
+			  normalbkto="RGB(201,218,234)" 
+			  normaltext="RGB(54,52,50)" 
+			  mouseonbkfrom="RGB(187,215,232)"
+			  mouseonbkto="RGB(174,207,225)"
+			  mouseontext="RGB(54,52,50)" 
+			  pressedbkfrom="RGB(205,227,240)"
+			  pressedbkto="RGB(237,245,249)"
+			  pressedtext="RGB(54,52,50)" 
+			  selectedbkfrom="RGB(205,227,240)" 
+			  selectedbkto="RGB(237,245,249)" 
+			  selectedtext="RGB(54,52,50)"/>
+	</TabCtrl>
+	<Outbar round="3,3" bkfromcolor="RGB(201,212,215)" bktocolor="RGB(201,232,235)">
+		<Item offsetx="5" offsety="3"
+			  height="24"
+			  indentationx="10"
+			  selectednormalfrom="RGB(79,153,200)"
+			  selectednormalto="RGB(64,136,181)"
+			  selectedtext="RGB(255,255,255)"
+			  selectedmouseonfrom="RGB(64,136,181)"
+			  selectedmouseonto="RGB(79,153,200)"  
+			  normaltext="RGB(0,28,48)"
+			  mouseontext="RGB(3,112,218)"
+			  />
+		<Folder offsetx="8" offsety="2"
+			  height="30"
+			  normalborder="RGB(188,206,223)"
+			  noramlfrom="RGB(244,246,247)"
+			  noramlto="RGB(225,232,236)"
+			  
+			  pressedborder="RGB(164,174,185)"
+			  pressedfrom="RGB(217,227,230)"
+			  pressedto="RGB(252,252,252)"
+			  pressedtext="RGB(0,28,48)"
+			  mouseonfirstborder="RGB(80,129,163)"
+			  mouseonsecondborder="RGB(102,205,235)"
+			  mouseonthirdborder="RGB(200,234,245)"
+			  mouseonfrom="RGB(246,248,249)"
+			  mouseonto="RGB(231,238,240)"
+			  normaltext="RGB(0,28,48)"
+			  mouseontext="RGB(3,112,218)"
+			  />			  
+	</Outbar>
+	<Slider leftoffset="4" rightoffset="8" topoffset="4" bottomoffset="8" selectedleftoffset="4" selectedrightoffset="8" trans="RGB(255,0,255)" 
+			selectedtopoffset="4" selectedbottomoffset="8"/>
+	<ListCtrl offsetx="3" offsety="2" bordercolor="RGB(191,216,233)" bkcolor="RGB(232,245,251)">
+		<Header height="25" fromcolor="RGB(209,230,243)" tocolor="RGB(222,238,247)"/>
+		<Item height="23" selectedfromcolor="RGB(63,152,217)" selectedtocolor="RGB(49,136,199)" selectedtextcolor="RGB(250,240,230)"/>
+	</ListCtrl>
+	<ButtonList>
+		<Item round="3,3" offsetx="4" offsety="2"
+			  selectednormalfrom="RGB(79,153,200)"
+			  selectednormalto="RGB(64,136,181)"
+			  selectednormaltext="RGB(255,255,255)"
+			  selectedmouseonfrom="RGB(79,153,200)"
+			  selectedmouseonto="RGB(64,136,181)"
+			  selectedmouseontext="RGB(255,255,255)"	
+			  selectedpressedfrom="RGB(79,153,200)"
+			  selectedpressedto="RGB(64,136,181)"
+			  selectedpressedtext="RGB(255,255,255)"	
+			  normaltext="RGB(0,28,48)"
+			  pressedtext="RGB(0,28,48)"
+			  mouseontext="RGB(3,112,218)"
+		/>
+		
+	</ButtonList>
+	<Brownser editheight="18" rightwidth="22" offsetfirst="50" offsetsecond="70"/>
+	<ToolTip bordercolor="RGB(40,62,93)"
+			 bkcolor="RGB(236,232,253)" 
+			 offsetx="3"
+			 offsety="3"/>
+	<Menu bordercolor="RGB(152,152,152)" bkcolor="RGB(253,253,253)" round="3,3" sidebarcolor="RGB(209,228,236)" sidebarwidth="25">
+		<Item height="25"
+			  offsetx="5"
+			  offsety="3"
+			  normalbkfrom="RGB(253,253,253)" 
+			  normalbkto="RGB(253,253,253)" 
+			  normaltext="RGB(0,20,35)" 
+			  mouseonbkfrom="RGB(63,152,217)"
+			  mouseonbkto="RGB(48,134,198)"
+			  mouseontext="RGB(253,253,253)" 
+			  pressedbkfrom="RGB(63,152,217)"
+			  pressedbkto="RGB(48,134,198)"
+			  pressedtext="RGB(253,253,253)"
+			  seperatorcolor="RGB(183,195,204)"
+			  arrowwidth="10"
+			  seperatorheight="10"
+		/>
+	</Menu>
+	<Tree offsetx="3" offsety="2" bordercolor="RGB(191,216,233)" bkcolor="RGB(232,245,251)">
+		<Item height="23" selectedfromcolor="RGB(63,152,217)" selectedtocolor="RGB(49,136,199)" selectedtextcolor="RGB(250,240,230)"/>
+	</Tree>
+	
+	<ControlBoder size="1">
+		<Left width="4" firstoffset="7" secondoffset="10"/>
+		<Right width="4" firstoffset="7" secondoffset="10"/>
+		<Top height="4" firstoffset="7" secondoffset="10"/>
+		<Bottom height="4" firstoffset="7" secondoffset="10"/>
+	</ControlBoder>
+	<Images>
+		<Image id="30007" src="skins/common/radio.png" desc="Radio未选中状态的图片"/>
+		<Image id="30008" src="skins/common/radio_h.png" desc="Radio未选中状态鼠标掠过图片"/>
+		<Image id="30009" src="skins/common/radio_p.png" desc="Radio选中状态图片"/>
+		<Image id="60000" src="skins/common/checkbox.png" desc="ChechBox未选中状态的图片"/>
+		<Image id="60001" src="skins/common/checkbox_h.png" desc="ChechBox未选中鼠标略过状态的图片"/>
+		<Image id="60002" src="skins/common/checkbox_p.png" desc="ChechBox选中状态的图片"/>
+		<Image id="60005" src="skins/common/scrollbar.png" desc="scrollbar图片"/>
+		
+		<Image id="60006" src="skins/common/error.png" desc="RXSkinMessageBox错误提示图片"/>
+		<Image id="60007" src="skins/common/help.png" desc="RXSkinMessageBox帮助提示图片"/>
+		<Image id="60008" src="skins/common/tip.png" desc="RXSkinMessageBox提示图片"/>
+		<Image id="60009" src="skins/common/warn.png" desc="RXSkinMessageBox警告提示图片"/>
+		
+		<Image id="60018" src="skins/common/rightarroow.png" desc="向下箭头图片"/>			
+		<Image id="60019" src="skins/common/btn_search_down.png" desc="文件查找控件图片图片"/>
+		<Image id="60020" src="skins/common/btn_search_normal.png" desc="文件查找控件图片图片"/>
+		<Image id="60021" src="skins/common/dropstart_hover.png" desc="文件查找控件图片图片"/>
+		<Image id="60022" src="skins/common/dropstart_normal.png" desc="文件查找控件图片图片"/>
+		<Image id="60023" src="skins/common/icn_collapse.png" desc="文件查找控件图片图片"/>
+		<Image id="60024" src="skins/common/icn_collapse_hover.png" desc="文件查找控件图片图片"/>
+		<Image id="60025" src="skins/common/icn_expand.png" desc="文件查找控件图片图片"/>
+		<Image id="60026" src="skins/common/icn_expand_hover.png" desc="文件查找控件图片图片"/>
+		
+		<Image id="60030" src="skins/SliderBK.png" desc="文件查找控件图片图片"/>
+		<Image id="60031" src="skins/SliderFore.png" desc="文件查找控件图片图片"/>
+		<Image id="60032" src="skins/SliderBar.png" desc="文件查找控件图片图片"/>
+		
+		<Image id="60033" src="skins/icons/delete-16.png" />
+		<Image id="60034" src="skins/icons/play-16.png" />
+		<Image id="60035" src="skins/icons/download-16.png" />
+		<Image id="60036" src="skins/download.png" />
+		<Image id="60037" src="skins/upload.png" />
+		<Image id="60038" src="skins/finished.png" />
+		<Image id="60039" src="skins/cancel.png" />
+		<Image id="60040" src="skins/desktop.png" />
+		<Image id="60041" src="skins/transfer_between_users.png" />
+		<Image id="60042" src="skins/computer_small.png" />
+		<Image id="60043" src="skins/computer.png" />
+		<Image id="60044" src="skins/self_small.png" />
+		<Image id="60045" src="skins/resumeItem.png" />
+		<Image id="60046" src="skins/pauseItem.png" />
+		<Image id="60047" src="skins/common/up_arrow.png" />
+		<Image id="60048" src="skins/common/down_arrow.png" />
+		<Image id="60049" src="skins/unknown.png" />
+		<Image id="60050" src="skins/register_account.png" />
+		<Image id="60051" src="skins/vip_account.png" />
+		<Image id="60052" src="skins/tourist_account.png" />
+		<Image id="60053" src="skins/close_normal.png" />
+		<Image id="60054" src="skins/close_hot.png" />
+		<Image id="60055" src="skins/capture.png" />
+		<Image id="60056" src="skins/record.png" />
+		<Image id="60057" src="skins/clear_search.png" />		
+		<Image id="60058" src="skins/common/right_arrow.png" />
+		<Image id="60059" src="skins/common/down_arrow_ex.png" />
+		<Image id="60060" src="skins/supper_vip.png" />
+	</Images>
+</RXSkin>

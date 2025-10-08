@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="200,360">
+	<Borders need="false" round="3,3" resize="false">
+	</Borders>
+	<Captions need="false">
+	</Captions>
+	<Controls>
+		<Control id="7000" type="RXSkinGroupLine" text="基础" tooltip="" area="RECT(10,5,430,35)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="7031" type="RXSkinStatic" text="保存路径：" tooltip="" area="RECT(20,47,260,72)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="7032" type="RXSkinBrownser" text=""  tipvalue="请输入输入视频存盘路径" tooltip="" 
+				area="RECT(90,40,430,70)"
+				aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" tipbgcolor="RGB(201,212,215)" tiptextcolor="RGB{0,0,0}"  bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+				bordercolor="RGB(100,212,215)"/>
+				<Control id="7033" type="RXSkinImageButton" text="打开路径" normalsrc="skins/open_folder.png" hotsrc="skins/open_folder.png"
+				downsrc="skins/open_folder.png"
+				tooltip="打开路径" 
+				area="RECT(340,85,430,109)" 
+				aligntopleft="TOP_LEFT" 
+				alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)" normalbk="RGB(191,222,225)"/>
+			
+		<Control id="7003" type="RXSkinGroupLine" text="主面板" tooltip="" area="RECT(10,130,430,155)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>		
+		<Control id="7005" type="RXSkinCheckbox" text="始终保持在其他窗口前端" tooltip="" area="RECT(20,160,380,180)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>		
+		<Control id="7007" type="RXSkinCheckbox" text="在任务栏通知区域显示RX'Pull图标" tooltip="" area="RECT(20,185,450,205)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>		
+		<Control id="7015" type="RXSkinCheckbox" text="开机自启动" tooltip="" area="RECT(20,210,380,230)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>	
+		<Control id="7009" type="RXSkinStatic" text="关闭主面板时：" tooltip="" area="RECT(28,250,350,308)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="7010" type="RXSkinRadioList" text="" tooltip="" area="RECT(20,255,0,0)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT">
+			<Item id="7011" text="隐藏到工具栏任务区，不退出程序。" tooltip="" area="RECT(40,270,550,290)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+			<Item id="7012" text="退出程序。" tooltip="" area="RECT(40,300,550,320)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		</Control>		
+	</Controls>
+	<Background>
+	</Background>
+</Window>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="200,360">
+	<Borders need="false" round="3,3" resize="false">
+	</Borders>
+	<Captions need="false">
+	</Captions>
+	<Controls>
+		<Control id="54001" type="RXSkinStatic" text="账号：" tooltip="" area="RECT(25,36,70,53)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="54002" type="RXSkinEdit" text="" tooltip="" style="0" area="RECT(65,30,315,55)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+		normalborder="RGB(180,180,200)" hotborder="RGB(180,180,200)" ispassword="FALSE" tipvalue="请输入账号。。。" tiptextcolor="RGB(110,100,85)"/>
+		
+		<Control id="54003" type="RXSkinStatic" text="密码：" tooltip="" area="RECT(25,68,70,95)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="54004" type="RXSkinEdit" text="" tooltip="" style="0" area="RECT(65,65,315,90)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+		normalborder="RGB(180,180,200)" hotborder="RGB(180,180,200)" ispassword="TRUE" tipvalue="请输入密码。。。" tiptextcolor="RGB(110,100,85)"/>
+		
+		<Control id="54005" type="RXSkinStatic" text="密码确认：" tooltip="" area="RECT(25,107,90,123)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="54006" type="RXSkinEdit" text="" tooltip="" style="0" area="RECT(90,100,315,125)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+		normalborder="RGB(180,180,200)" hotborder="RGB(180,180,200)" ispassword="TRUE" tipvalue="再次确认密码。。。" tiptextcolor="RGB(110,100,85)"/>
+		
+		<Control id="54007" type="RXSkinStatic" text="邮箱：" tooltip="" area="RECT(25,143,90,155)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="54008" type="RXSkinEdit" text="" tooltip="" style="0" area="RECT(65,135,315,160)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+		normalborder="RGB(180,180,200)" hotborder="RGB(180,180,200)" ispassword="FALSE" tipvalue="选填，用于找回密码。。。" tiptextcolor="RGB(110,100,85)"/>
+		
+		<Control id="54009" type="RXSkinTxtButton" text="注册(&O)" tooltip="" area="RECT(90,185,155,210)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="54010" type="RXSkinTxtButton" text="返回(&C)" tooltip="" area="RECT(230,185,295,210)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>	
+	</Controls>
+	<Background>
+		<Status area="RECT(15,45,383,220)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" round="6,6"/>
+	</Background>
+</Window>

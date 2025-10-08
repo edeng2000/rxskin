@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="200,360">
+	<Borders need="false" round="3,3" resize="false">
+	</Borders>
+	<Captions need="false">
+	</Captions>
+	<Controls>
+		<Control id="590000" type="RXSkinImageButton" text="" normalsrc="skins/back.png" hotsrc="skins/back.png" downsrc="skins/back.png"  tooltip="上一级" area="RECT(10,45,34,69)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="590001" type="RXSkinImageButton" text="" normalsrc="skins/refresh.png" hotsrc="skins/refresh.png" downsrc="skins/refresh.png"  tooltip="刷新" area="RECT(40,45,64,69)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="590002" type="RXSkinImageButton" text="" normalsrc="skins/new.png" hotsrc="skins/new.png" downsrc="skins/new.png"  tooltip="新建" area="RECT(70,45,94,69)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="590005" type="RXSkinImageButton" text="" normalsrc="skins/upward.png" hotsrc="skins/upward.png" downsrc="skins/upward.png"  tooltip="上一级目录" area="RECT(100,45,124,69)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)"/>
+		<Control id="590003" type="RXSkinComboBox" text="" tooltip="" style="1" area="RECT(130,45,422,70)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"
+		normalborder="RGB(212,200,230)" hotborder="RGB(212, 180, 210)"/>
+		<Control id="590004" type="RXSkinListCtrl" text="" tooltip="" area="RECT(5,75,424,374)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT" bkcolor="RGB(201,212,215)" textcolor="RGB(21,42,45)"	bordercolor="RGB(0,212,215)">
+			<Header>
+				<Column text="名称" percent="25"/>
+				<Column text="大小" percent="25"/>
+				<Column text="修改时间" percent="25"/>
+				<Column text="类型" percent="25"/>
+			</Header>
+		</Control>
+	</Controls>
+	<Background>
+	</Background>
+</Window>

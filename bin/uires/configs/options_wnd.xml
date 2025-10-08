@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="750,630" area="RECT(100,20,750,530)" resize="true" child="RECT(170,40,540,370)">
+	<Borders need="true" round="6,6">
+		<Top src="skins/top.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Bottom src="skins/bottom.bmp" OffSetLeft="50" OffSetRight="100" Trans="RGB(255,0,255)"/>
+		<Left src="skins/left.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+		<Right src="skins/right.bmp" OffSetTop="70" OffSetBottom="80" Trans="RGB(255,0,255)"/>
+	</Borders>
+	<Captions need="true">
+		<Close normalsrc="skins/common/btn_close.png" hotsrc="skins/common/btn_close_hover.png" downsrc="skins/common/btn_close_down.png" OffSetX="8" OffSetY="6" width="26" height="28" tooltip="关闭" text=""/>
+		<Title src="" OffSetX="10" OffSetY="5" width="430" height="25" tooltip="" text="选项" aligntopleft="TOP_LEFT" alignbottomright="TOP_RIGHT"/>
+	</Captions>
+	<Background>
+		<Top area="RECT(0,0,100,35)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Middle area="RECT(0,35,100,46)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Bottom area="RECT(0,0,100,3)" from="RGB(201,212,215)" to="RGB(201,232,235)"/>
+		<Status area="RECT(2,445,548,470)" bk="RGB(201,232,235)"  textcolor="RGB(50,50,50)" to="RGB(201,232,235)" border="RGB(161,202,195)" />
+	</Background>
+	<Controls>
+		<Control id="2004" type="RXSkinOutbar" text="" tooltip="" area="RECT(10,40,160,460)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT">
+			<Folder id="1000" name="基本设置" isselected="TRUE">
+				<Item id ="10010" name="常规" src="/../skins/generic.png"/>				
+			</Folder>
+		</Control>
+		
+		<Control id="2001" type="RXSkinTxtButton" text="确定(&O)" tooltip="" area="RECT(425,470,485,495)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="2002" type="RXSkinTxtButton" text="取消(&C)" tooltip="" area="RECT(495,470,555,495)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		<Control id="2003" type="RXSkinTxtButton" text="应用(&A)" tooltip="" area="RECT(565,470,625,495)" aligntopleft="BOTTOM_RIGHT" alignbottomright="BOTTOM_RIGHT"/>
+		
+	</Controls>
+	
+</Window>

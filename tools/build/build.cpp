@@ -111,6 +111,67 @@ int main()
 					fprintf(hFile,"@echo  off\n");
 					int pos = strPath.find(_T("\\"));
 					tstring strRoot = strPath.substr(0, pos);
+
+					// libpng
+					fprintf(hFile, "echo \"start build libpng-1.6.45  Debug|x64\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"DebugLibrary|x64\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build libpng-1.6.45  Unicode_Debug|x64 end\"\n");
+
+					fprintf(hFile, "echo \" start build libpng-1.6.45  Release|x64\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"ReleaseLibrary|x64\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build libpng  Release|x64 end\"\n");
+
+					fprintf(hFile, "echo \"start build libpng-1.6.45  Debug|Win32\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"DebugLibrary|Win32\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build libpng-1.6.45  Debug|Win32 end\"\n");
+
+					fprintf(hFile, "echo \" start build libpng-1.6.45  Release|Win32\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"ReleaseLibrary|Win32\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build libpng  Release|Win32 end\"\n");
+
+					// giflib
+					fprintf(hFile, "echo \"start build giflib-5.2.2  Debug|x64\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build64\\GifLib.sln\"  /rebuild \"Debug|x64\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build libpng-1.6.45  Unicode_Debug|x64 end\"\n");
+
+					fprintf(hFile, "echo \" start build GifLib  Release|x64\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build64\\GifLib.sln\"  /rebuild \"Release|x64\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build GifLib  Release|x64 end\"\n");
+
+					fprintf(hFile, "echo \"start build GifLib  Debug|Win32\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build32\\GifLib.sln\"  /rebuild \"Debug|Win32\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build GifLib  Debug|Win32 end\"\n");
+
+					fprintf(hFile, "echo \" start build GifLib  Release|Win32\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build32\\GifLib.sln\"  /rebuild \"Release|Win32\" /out \"%soutput.txt\"\n",
+						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str(),
+						_RXTT2Local(strPath.c_str()).c_str());
+					fprintf(hFile, "echo \"build GifLib  Release|Win32 end\"\n");
+
+
+
 					fprintf(hFile, "echo \"start build cximage  Unicode_Debug|Win32\"\n");
 					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\cximage\\src\\CxImageFull.sln\"  /rebuild \"Unicode_Debug|Win32\" /out \"%soutput.txt\"\n",
 						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
@@ -139,35 +200,7 @@ int main()
 						_RXTT2Local(strPath.c_str()).c_str());
 					fprintf(hFile, "echo \"build cximage  Unicode_Release|x64 end\"\n");
 
-					// libpng
-					fprintf(hFile, "echo \"start build libpng-1.6.45  Debug|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"Debug Library|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng-1.6.45  Unicode_Debug|x64 end\"\n");
-
-					fprintf(hFile, "echo \" start build libpng-1.6.45  Release|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"Release Library|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng  Release|x64 end\"\n");
-
-					fprintf(hFile, "echo \"start build libpng-1.6.45  Debug|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"Debug Library|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng-1.6.45  Debug|Win32 end\"\n");
-
-					fprintf(hFile, "echo \" start build libpng-1.6.45  Release|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"Release Library|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng  Release|Win32 end\"\n");
-
+				
 
 					fprintf(hFile, "echo \"start build Skia  Debug|x86\"\n");
 					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\skia\\skia.sln\"  /rebuild \"Debug|x86\" /out \"%soutput.txt\"\n",
@@ -213,19 +246,19 @@ int main()
 					fprintf(hFile, "echo \"build RXSkin  Release|x64 end\"\n");
 
 
-					fprintf(hFile, "echo \" start build RXSkin  Debug|x86\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Debug|x86\" /out \"%soutput.txt\"\n",
+					fprintf(hFile, "echo \" start build RXSkin  Debug|Win32\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Debug|Win32\" /out \"%soutput.txt\"\n",
 						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
 						_RXTT2Local(strPath.c_str()).c_str(),
 						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build RXSkin  Debug|x86 end\"\n");
+					fprintf(hFile, "echo \"build RXSkin  Debug|Win32 end\"\n");
 
-					fprintf(hFile, "echo \" start build RXSkin  Release|x86\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Release|x86\" /out \"%soutput.txt\"\n",
+					fprintf(hFile, "echo \" start build RXSkin  Release|Win32\"\n");
+					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Release|Win32\" /out \"%soutput.txt\"\n",
 						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
 						_RXTT2Local(strPath.c_str()).c_str(),
 						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build RXSkin  Release|x86 end\"\n");
+					fprintf(hFile, "echo \"build RXSkin  Release|Win32 end\"\n");
 				
 					fprintf(hFile, "echo \"build successfully!\"\n");
 					fprintf(hFile, "pause\n");

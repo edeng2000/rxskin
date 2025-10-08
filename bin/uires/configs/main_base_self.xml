@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="200,360">
+	<Borders need="false" round="3,3" resize="false">
+	</Borders>
+	<Captions need="false">
+	</Captions>
+	<Controls>
+		<Control id="23001" type="RXSkinPicture" text="" tooltip="" area="RECT(5,5,69,69)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="23002" type="RXSkinStatic" text="" tooltip="" isBold="true"  area="RECT(5,75,90,95)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+		<Control id="23003" type="RXSkinStatic" text="" tooltip="" area="RECT(5,100,190,120)" aligntopleft="TOP_LEFT" alignbottomright="TOP_LEFT"/>
+	</Controls>
+	<Background>
+	</Background>
+</Window>

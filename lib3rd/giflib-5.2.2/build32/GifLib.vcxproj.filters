@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\source\dgif_lib.c" />
+    <ClCompile Include="..\source\egif_lib.c" />
+    <ClCompile Include="..\source\gif_err.c" />
+    <ClCompile Include="..\source\gif_font.c" />
+    <ClCompile Include="..\source\gif_hash.c" />
+    <ClCompile Include="..\source\gifalloc.c" />
+    <ClCompile Include="..\source\openbsd-reallocarray.c" />
+    <ClCompile Include="..\source\quantize.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\gif_hash.h" />
+    <ClInclude Include="..\source\gif_lib.h" />
+    <ClInclude Include="..\source\gif_lib_private.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DD1A4D3C-FD8F-3A70-8482-C2F780785152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3B6B6F61-B174-3E86-B5BA-15A93ED4ABCF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

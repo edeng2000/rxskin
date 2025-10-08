@@ -142,7 +142,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <OutputFile>../../bin/$(Platform)/$(Configuration)/$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>../../lib/$(Platform)/$(ConfigurationName)/;../../lib3rd/skia/lib/Win64/Debug;../../lib3rd/libiconv/lib/win64/Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../lib/$(Platform)/$(ConfigurationName)/;../../lib3rd/skia/lib/x64/Debug;../../lib3rd/libiconv/lib/win64/Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>rxskin.lib;rxfundation.lib;skia.lib;libiconv.lib;gdiplus.lib;Usp10.lib;Opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -164,7 +164,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <OutputFile>../../bin/$(Platform)/$(Configuration)/$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>../../lib/$(Platform)/$(ConfigurationName)/;../../lib3rd/skia/lib/Win64/Release;../../lib3rd/libiconv/lib/win64/Release</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../lib/$(Platform)/$(ConfigurationName)/;../../lib3rd/skia/lib/x64/Release;../../lib3rd/libiconv/lib/win64/Release</AdditionalLibraryDirectories>
       <AdditionalDependencies>rxskin.lib;rxfundation.lib;libiconv.lib;skia.lib;gdiplus.lib;Msimg32.lib;Opengl32.lib;Usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
