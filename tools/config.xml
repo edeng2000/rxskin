@@ -1,0 +1,27 @@
+<Config>
+	<item name='libpng-1.6.45' type="DebugLibrary|x64" path="..\lib3rd\libpng-1.6.45\projects\vstudio\vstudio.sln"/>
+	<item name='libpng-1.6.45' type="ReleaseLibrary|x64" path="..\lib3rd\libpng-1.6.45\projects\vstudio\vstudio.sln"/>
+	<item name='libpng-1.6.45' type="DebugLibrary|Win32" path="..\lib3rd\libpng-1.6.45\projects\vstudio\vstudio.sln"/>
+	<item name='libpng-1.6.45' type="ReleaseLibrary|Win32" path="..\lib3rd\libpng-1.6.45\projects\vstudio\vstudio.sln"/>
+	
+	<item name='giflib-5.2.2' type="Debug|x64" path="..\lib3rd\giflib-5.2.2\build64\GifLib.sln"/>
+	<item name='giflib-5.2.2' type="Release|x64" path="..\lib3rd\giflib-5.2.2\build64\GifLib.sln"/>
+	<item name='giflib-5.2.2' type="Debug|Win32" path="..\lib3rd\giflib-5.2.2\build32\GifLib.sln"/>
+	<item name='giflib-5.2.2' type="Release|Win32" path="..\lib3rd\giflib-5.2.2\build32\GifLib.sln"/>
+	
+	<item name='CxImage' type="Unicode_Debug|x64" path="..\lib3rd\cximage\src\CxImageFull.sln"/>
+	<item name='CxImage' type="Unicode_Release|x64" path="..\lib3rd\cximage\src\CxImageFull.sln"/>
+	<item name='CxImage' type="Unicode_Debug|Win32" path="..\lib3rd\cximage\src\CxImageFull.sln"/>
+	<item name='CxImage' type="Unicode_Release|Win32" path="..\lib3rd\cximage\src\CxImageFull.sln"/>
+	
+	<item name='Skia' type="Debug|x64" path="..\lib3rd\skia\skia.sln"/>
+	<item name='Skia' type="Release|x64" path="..\lib3rd\skia\skia.sln"/>
+	<item name='Skia' type="Debug|x86" path="..\lib3rd\skia\skia.sln"/>
+	<item name='Skia' type="Release|x86" path="..\lib3rd\skia\skia.sln"/>
+	
+	<item name='RXSkin' type="Debug|x64" path="..\RXSkin.sln"/>
+	<item name='RXSkin' type="Release|x64" path="..\RXSkin.sln"/>
+	<item name='RXSkin' type="Debug|Win32" path="..\RXSkin.sln"/>
+	<item name='RXSkin' type="Release|Win32" path="..\RXSkin.sln"/>
+	
+</Config>

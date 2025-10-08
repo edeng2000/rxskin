@@ -11,6 +11,68 @@
 #include <corecrt_io.h>
 #include <corecrt.h>
 #include <fcntl.h>
+#include "tinyxml.h"
+struct SBuildItem
+{
+	char   szName[256];
+	char   szBuildPath[256];
+	char   szBuildType[256];
+	SBuildItem()
+	{
+		memset(szBuildType, 0, 256);
+		memset(szName, 0, 256);
+		memset(szBuildPath, 0, 256);
+	}
+	SBuildItem(const SBuildItem& oItem)
+	{
+		memset(szBuildType, 0, 256);
+		memset(szName, 0, 256);
+		memset(szBuildPath, 0, 256);
+		strncpy(szBuildPath, oItem.szBuildPath, 256);
+		strncpy(szBuildType, oItem.szBuildType, 256);
+		strncpy(szName, oItem.szName, 256);
+	}
+};
+
+vector<SBuildItem>  vecAllItem;
+
+void ReadConfig()
+{
+	char szConfig[MAX_PATH] = { 0 };
+	sprintf(szConfig, "%sconfig.xml", _RXTT2Local(RX::RXGetModulePath()).c_str());
+	TiXmlDocument oDoc;
+	if (oDoc.LoadFile(szConfig))
+	{
+		TiXmlElement* poRoot = oDoc.RootElement();
+		if (poRoot)
+		{
+			TiXmlElement* poItem = poRoot->FirstChildElement();
+			while (poItem)
+			{
+				SBuildItem oItem;
+				const char* pszValue = poItem->Attribute("name");
+				if (pszValue)
+				{
+					strncpy(oItem.szName, pszValue, 256);
+				}
+				pszValue = poItem->Attribute("path");
+				if (pszValue)
+				{
+					strncpy(oItem.szBuildPath, pszValue, 256);
+				}
+				pszValue = poItem->Attribute("type");
+				if (pszValue)
+				{
+					strncpy(oItem.szBuildType, pszValue, 256);
+				}
+				vecAllItem.push_back(oItem);
+				poItem = poItem->NextSiblingElement();
+			}
+		}
+	}
+}
+
+
 int main()
 {
 	vector<tstring> vecCommand;
@@ -86,6 +148,7 @@ int main()
 		LOG_INFO("visual studio Path:序号：[%d] %s",t,
 			_RXTT2Local(vecCommand[t].c_str()).c_str());
 	}
+	ReadConfig();
 	bool exited = false;
 	LOG_INFO("请选定visual studio 路径：");
 	while (exited==false)
@@ -112,154 +175,22 @@ int main()
 					int pos = strPath.find(_T("\\"));
 					tstring strRoot = strPath.substr(0, pos);
 
-					// libpng
-					fprintf(hFile, "echo \"start build libpng-1.6.45  Debug|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"DebugLibrary|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng-1.6.45  Unicode_Debug|x64 end\"\n");
+					for (int t=0;t<vecAllItem.size();t++)
+					{
+						fprintf(hFile, "echo \"start build %s  %s\"\n",
+							vecAllItem[t].szName,
+							vecAllItem[t].szBuildType);
+						fprintf(hFile, "\"%s\" \"%s%s\"  /rebuild \"%s\" /out \"output.txt\"\n",
+							_RXTT2Local(vecCommand[sel].c_str()).c_str(),
+							_RXTT2Local(RX::RXGetModulePath()).c_str(),
+							vecAllItem[t].szBuildPath,
+							vecAllItem[t].szBuildType);
+						fprintf(hFile, "echo \"build %s  %s end\"\n",
+							vecAllItem[t].szName,vecAllItem[t].szBuildType);
 
-					fprintf(hFile, "echo \" start build libpng-1.6.45  Release|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"ReleaseLibrary|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng  Release|x64 end\"\n");
+					}
 
-					fprintf(hFile, "echo \"start build libpng-1.6.45  Debug|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"DebugLibrary|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng-1.6.45  Debug|Win32 end\"\n");
-
-					fprintf(hFile, "echo \" start build libpng-1.6.45  Release|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\libpng-1.6.45\\projects\\vstudio\\vstudio.sln\"  /rebuild \"ReleaseLibrary|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng  Release|Win32 end\"\n");
-
-					// giflib
-					fprintf(hFile, "echo \"start build giflib-5.2.2  Debug|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build64\\GifLib.sln\"  /rebuild \"Debug|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build libpng-1.6.45  Unicode_Debug|x64 end\"\n");
-
-					fprintf(hFile, "echo \" start build GifLib  Release|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build64\\GifLib.sln\"  /rebuild \"Release|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build GifLib  Release|x64 end\"\n");
-
-					fprintf(hFile, "echo \"start build GifLib  Debug|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build32\\GifLib.sln\"  /rebuild \"Debug|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build GifLib  Debug|Win32 end\"\n");
-
-					fprintf(hFile, "echo \" start build GifLib  Release|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\giflib-5.2.2\\build32\\GifLib.sln\"  /rebuild \"Release|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build GifLib  Release|Win32 end\"\n");
-
-
-
-					fprintf(hFile, "echo \"start build cximage  Unicode_Debug|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\cximage\\src\\CxImageFull.sln\"  /rebuild \"Unicode_Debug|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build cximage  Unicode_Debug|Win32 end\"\n");
 					
-					fprintf(hFile, "echo \" start build cximage  Unicode_Release|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\cximage\\src\\CxImageFull.sln\"  /rebuild \"Unicode_Release|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build cximage  Unicode_Release|Win32 end\"\n");
-	
-					fprintf(hFile, "echo \"start build cximage  Unicode_Debug|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\cximage\\src\\CxImageFull.sln\"  /rebuild \"Unicode_Debug|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build cximage  Unicode_Debug|x64 end\"\n");
-
-					fprintf(hFile, "echo \" start build cximage  Unicode_Release|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\cximage\\src\\CxImageFull.sln\"  /rebuild \"Unicode_Release|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build cximage  Unicode_Release|x64 end\"\n");
-
-				
-
-					fprintf(hFile, "echo \"start build Skia  Debug|x86\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\skia\\skia.sln\"  /rebuild \"Debug|x86\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build skia  Debug|x86 end\"\n");
-
-					fprintf(hFile, "echo \" start build skia  Release|x86\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\skia\\skia.sln\"  /rebuild \"Release|x86\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build skia  Release|x86 end\"\n");
-
-
-					fprintf(hFile, "echo \"start build Skia  Debug|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\skia\\skia.sln\"  /rebuild \"Debug|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build skia  Debug|x64 end\"\n");
-
-					fprintf(hFile, "echo \" start build skia  Release|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\lib3rd\\skia\\skia.sln\"  /rebuild \"Release|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build skia  Release|x64 end\"\n");
-
-					fprintf(hFile, "echo \" start build RXSkin  Debug|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Debug|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build RXSkin  Debug|x64 end\"\n");
-
-					fprintf(hFile, "echo \" start build RXSkin  Release|x64\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Release|x64\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build RXSkin  Release|x64 end\"\n");
-
-
-					fprintf(hFile, "echo \" start build RXSkin  Debug|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Debug|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build RXSkin  Debug|Win32 end\"\n");
-
-					fprintf(hFile, "echo \" start build RXSkin  Release|Win32\"\n");
-					fprintf(hFile, "\"%s\" \"%s..\\RXSkin.sln\"  /rebuild \"Release|Win32\" /out \"%soutput.txt\"\n",
-						_RXTT2Local(vecCommand[sel].c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str(),
-						_RXTT2Local(strPath.c_str()).c_str());
-					fprintf(hFile, "echo \"build RXSkin  Release|Win32 end\"\n");
-				
 					fprintf(hFile, "echo \"build successfully!\"\n");
 					fprintf(hFile, "pause\n");
 					
